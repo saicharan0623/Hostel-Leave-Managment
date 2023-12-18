@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hostel Leave Management</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="/css/styles.css">
+
+  <style>
+    /* ============================== MEDIA QUERIES =================================== */
+    /* Font size for screens between 992px and 1200px */
+    @media (min-width: 1201px) {
+      .txtCls {
+        font-size: 24px;
+      }
+      .txtClsHead {
+        font-size: 26px;
+        font-weight: bold;
+      }
+    }
+
+    /* Font size for screens between 992px and 1200px */
+    @media (min-width: 992px) and (max-width: 1200px) {
+      .txtCls {
+        font-size: 22px;
+      }
+      .txtClsHead {
+        font-size: 24px;
+        font-weight: bold;
+      }
+    }
+
+    /* Font size for screens between 768px and 991px */
+    @media (min-width: 768px) and (max-width: 991px) {
+      .txtCls {
+        font-size: 20px;
+      }
+      .txtClsHead {
+        font-size: 22px;
+        font-weight: bold;
+      }
+    }
+
+    /* Font size for screens narrower than 768px */
+    @media (max-width: 767px) {
+      .txtCls {
+        font-size: 18px;
+      }
+      .txtClsHead {
+        font-size: 20px;
+        font-weight: bold;
+      }
+    }
+
+    /* ============================== MEDIA QUERIES =================================== */
+
+    body {
+      margin: 0;
+      padding: 0;
+      background-image: url("images/back4.jpg");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      font-family: Arial, sans-serif;
+      min-height: 100vh; /* Ensure the body takes up at least the full viewport height */
+      display: flex;
+      flex-direction: column;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    .logo {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: -10px;
+    }
+
+    h1 {
+      color:rgb(186,12,47);
+      font-size: 2.5rem;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+
+    .options {
+      margin-top: 20px;
+    }
+
+    .options a {
+      display: block;
+      color: #FFFFFF;
+      font-size: 1.5rem;
+      margin: 10px 0;
+      text-decoration: none;
+    }
+
+    .options a:hover {
+      text-decoration: underline;
+    }
+
+    .moving-text {
+      animation: moveText 20s linear infinite;
+      color:rgb(186,12,47);
+      font-size: 1.2rem;
+      margin-top: 5px;
+      text-align: center;
+      white-space: nowrap; /* Prevent text from wrapping */
+   /* Hide overflowed text */
+    }
+
+    @keyframes moveText {
+      0% {
+        transform: translateX(calc(-100% - 100px));
+      }
+      100% {
+        transform: translateX(100%);
+      }
+    }
+
+    .contact-details {
+      color: #000000;
+      font-size: 1.3rem;
+      text-align: center;
+      background: transparent;
+    }
+  .navbar {
+      background-color:rgb(186,12,47); /* Change background color */
+      display: flex;
+      justify-content: right;
+      align-items: center;
+      padding: 0.1px 20px; /* Add some padding */
+      box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .navbar a {
+      color: #fff; /* Change link text color */
+      text-decoration: none;
+      margin: 5px 10px; /* Add spacing between links */
+      padding: 5px 10px; /* Add padding to links */
+      border-radius: 5px; /* Add rounded corners */
+      transition: background-color 0.2s ease; /* Add smooth hover effect */
+
+    }
+
+    .navbar a:hover {
+      background-color: #fff; /* Change link background color on hover */
+      color:rgb(186,12,47); /* Change link text color on hover */
+    }
+
+
+    /* Mobile menu button styles */
+    .mobile-menu-button {
+      font-size: 24px;
+      color: #fff;
+      cursor: pointer;
+      display: none;
+      align-content: right;
+    }
+
+    /* Media query for screens narrower than 768px (typical mobile devices) */
+    @media (max-width: 600px) {
+      .navbar {
+        flex-direction:column;
+        text-align:right;
+        padding: 10px;
+      }
+
+      .navbar a {
+        display: block;
+        margin: 10px 0;
+        padding: 10px;
+      }
+
+      .mobile-menu-button {
+        display: block;
+
+      }
+    }
+
+  </style>
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <div class="navbar">
+    <a href="index.html">Home</a>
+    <a href="../php/about.php">About</a>
+    <a href="../php/contact.php">Contact</a>
+    <a href="../php/instructions.php">Instructions</a>
+    <a href="../php/Files/Hostel_Rules.docx" download="">Hostel Rules</a>
+    <a href="../php/emergency_leave.php">Emergency Leave</a>
+    <div class="mobile-menu-button">&#9776;</div> <!-- Hamburger menu icon -->
+  </div>
+  <div class="container">
+    <img class="logo" src="images/back7.png" alt="Logo">
+    <h1>Hostel Leave Management</h1>
+    <div class = "footer"></div>
+    <div class="options">
+      <a href="student_login.html">Student Login</a>
+      <a href="admin_login.html">Admin Login</a>
+    </div>
+    <div class="moving-text">Login with your Credentials</div>
+    <div class="contact-details">
+      Contact: 080-5245125  | Email: NmimsHyderabad@nmims.edu
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      var $navbarLinks = $(".navbar a");
+      var $mobileMenuButton = $(".mobile-menu-button");
+  
+      // Initially hide the mobile menu button
+      $mobileMenuButton.hide();
+  
+      // Function to toggle the mobile menu
+      function toggleMobileMenu() {
+        $navbarLinks.slideToggle();
+      }
+  
+      // Toggle the mobile menu when the mobile menu button is clicked
+      $mobileMenuButton.click(toggleMobileMenu);
+  
+      // Hide the mobile menu on larger screens
+      function hideMobileMenu() {
+        if ($(window).width() > 600) {
+          $navbarLinks.show();
+          $mobileMenuButton.hide();
+        } else {
+          $navbarLinks.hide();
+          $mobileMenuButton.show();
+        }
+      }
+  
+      // Call the hideMobileMenu function on page load and window resize
+      hideMobileMenu();
+      $(window).resize(hideMobileMenu);
+    });
+  </script>  
+  <script src="js/bootstrap.min.js"></script>
+</body>
+<footer class="gradient">
+  <div class="container-fluid text-center">
+    <span> &copy; MALDE SAICHARAN All rights reserved.</span>
+  </div>
+</footer>
+</html>

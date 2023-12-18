@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Student Portal</title>
+    <style>
+      /* CSS styles here */
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        background-image: url("images/back4.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+
+      .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+      }
+
+      .logo {
+      position: absolute;
+      top: -12px;
+      left: -12px;
+      margin: 10px;
+    }
+
+    .logo img {
+      max-height: 70px;
+    }
+
+      .current-date {
+        font-size: 18px;
+        font-weight: bold;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+      }
+
+      .menu {
+        display: flex;
+        align-items: center;
+      }
+
+      .menu a {
+        display: inline-block;
+        margin-top: 10px;
+        margin-left: 10px;
+        padding: 10px 23px;
+        font-size: 20px;
+        text-decoration: none;
+        background-color: #000000;
+        color: #fff;
+        border-radius: 5px;
+        transition: background-color 0.3s ease-in-out;
+      }
+
+      .menu a:hover {
+        background-color: #f20707;
+      }
+      
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+      }
+
+      th,
+      td {
+        padding: 10px;
+        border: 1px solid #000000;
+        text-align: left;
+      }
+
+      th {
+        background-color: #e10808;
+        color: #fff;
+      }
+
+      #apply-leave {
+        text-align: center;
+        margin-top: 30px;
+      }
+
+      .apply-button {
+        padding: 10px 20px;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        font-size: 20px;
+        background-color: #000000;
+        color: #fff;
+        transition: background-color 0.3s ease-in-out;
+      }
+
+      .apply-button:hover {
+        background-color: #fa0000;
+      }
+
+      /* ============================== MEDIA QUERIES =================================== */
+      /* Font size for screens between 992px and 1200px */
+      @media (min-width: 1201px) {
+        .container {
+          font-size: 24px;
+        }
+        .body {
+          font-size: 26px;
+          font-weight: bold;
+        }
+      }
+
+      /* Font size for screens between 992px and 1200px */
+      @media (min-width: 992px) and (max-width: 1200px) {
+        .container {
+          font-size: 22px;
+        }
+        .body {
+          font-size: 24px;
+          font-weight: bold;
+        }
+      }
+
+      /* Font size for screens between 768px and 991px */
+      @media (min-width: 768px) and (max-width: 991px) {
+        .conatiner {
+          font-size: 20px;
+        }
+        .body {
+          font-size: 22px;
+          font-weight: bold;
+        }
+      }
+
+      /* Font size for screens narrower than 768px */
+      @media (max-width: 767px) {
+        .container {
+          font-size: 18px;
+        }
+        .body {
+          font-size: 20px;
+          font-weight: bold;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="logo">
+          <img src="images/back7.png" alt="Logo" />
+        </div>
+        <div class="current-date" id="current-date"></div>
+        <div class="menu">
+          <a class="option-link" href="#">Logout</a>
+        </div>
+      </div>
+
+      <h1>Welcome, <span id="user-email"></span></h1>
+
+      <table>
+        <thead>
+          <tr>
+            <th colspan="2">Student Details</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span>Name:</span></td>
+            <td><span id="student-name"></span></td>
+          </tr>
+          <tr>
+            <td><span>SAP ID:</span></td>
+            <td><span id="sap-id"></span></td>
+          </tr>
+          <tr>
+            <td><span>Mobile Number:</span></td>
+            <td><span id="mobile-number"></span></td>
+          </tr>
+          <tr>
+            <td><span>School:</span></td>
+            <td><span id="school"></span></td>
+          </tr>
+          <tr>
+            <td><span>Year:</span></td>
+            <td><span id="year"></span></td>
+          </tr>
+          <tr>
+            <td><span>Email:</span></td>
+            <td><span id="email"></span></td>
+          </tr>
+          <tr>
+            <td><span>Leaves Applied:</span></td>
+            <td><span id="leaves-applied"></span></td>
+          </tr>
+          <tr>
+            <td><span>Leaves Taken:</span></td>
+            <td><span id="leaves-taken"></span></td>
+          </tr>
+          <tr>
+            <td><span>Leave Status:</span></td>
+            <td><span id="leave-status"></span></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div id="apply-leave">
+        <h2>Apply for Leave</h2>
+        <button class="apply-button" onclick="location.href='apply_leave.html'">
+          Apply Leave
+        </button>
+      </div>
+    </div>
+
+    <script>
+      // Function to update the current date and time
+      function updateDateTime() {
+        const now = new Date();
+        const days = [
+          "Sunday",
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+        ];
+        const months = [
+          "January",
+          "February",
+          "March",
+          "April",
+          "May",
+          "June",
+          "July",
+          "August",
+          "September",
+          "October",
+          "November",
+          "December",
+        ];
+        const day = days[now.getDay()];
+        const month = months[now.getMonth()];
+        const date = now.getDate();
+        const year = now.getFullYear();
+        const formattedDate = `${month} ${date}, ${year}`;
+
+        document.getElementById("current-date").textContent = formattedDate;
+      }
+
+      // Function to fetch student data and populate the dashboard
+      function fetchStudentData() {
+        // Sample student data
+        const sampleData = {
+          name: "Malde Saicharan",
+          sapId: "70572200033",
+          mobileNumber: "6304856382",
+          school: "STME",
+          year: "2nd Year",
+          email: "saicharan.m033@nnmims.edu.in",
+          leavesApplied: 5,
+          leavesTaken: 3,
+          leaveStatus: "Approved",
+        };
+
+        // Populate the dashboard with sample data
+        document.getElementById("user-email").textContent = sampleData.email;
+        document.getElementById("student-name").textContent = sampleData.name;
+        document.getElementById("sap-id").textContent = sampleData.sapId;
+        document.getElementById("mobile-number").textContent =
+          sampleData.mobileNumber;
+        document.getElementById("school").textContent = sampleData.school;
+        document.getElementById("year").textContent = sampleData.year;
+        document.getElementById("email").textContent = sampleData.email;
+        document.getElementById("leaves-applied").textContent =
+          sampleData.leavesApplied;
+        document.getElementById("leaves-taken").textContent =
+          sampleData.leavesTaken;
+        document.getElementById("leave-status").textContent =
+          sampleData.leaveStatus;
+      }
+
+      // Call the functions to update date/time and fetch student data
+      updateDateTime();
+      fetchStudentData();
+    </script>
+  </body>
+</html>

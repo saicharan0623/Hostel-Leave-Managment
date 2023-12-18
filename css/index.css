@@ -1,0 +1,108 @@
+ body {
+     margin: 0;
+     padding: 0;
+     background-image: url("../public/images/back44.jpg");
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     font-family: Arial, sans-serif;
+     overflow-x: hidden;
+     /* Prevent horizontal scroll */
+ }
+
+ .container {
+     padding: 20px;
+     width: 100%;
+     max-width: 600px;
+     /* Limit the maximum width of the container */
+     margin: 0 auto;
+     border-radius: 5px;
+     text-align: center;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     /* Center content horizontally */
+     justify-content: center;
+     /* Center content vertically */
+     height: 100vh;
+     /* Ensure the container takes up the full viewport height */
+ }
+
+ .logo {
+     max-width: 100%;
+     height: auto;
+     margin-bottom: 20px;
+ }
+
+ h1 {
+     color: #ff1212;
+     font-size: 2rem;
+     margin-top: 20px;
+     margin-bottom: 20px;
+ }
+
+ .options {
+     display: flex;
+     flex-direction: row;
+     margin-top: 10px;
+     /* Adjust margin to prevent overlap */
+     margin-left: 10px;
+ }
+
+ .options a {
+     display: block;
+     color: #ffffff;
+     font-size: 1.5rem;
+     margin: 10px 10px;
+     /* Add horizontal margin between links */
+     text-decoration: none;
+ }
+
+ .options a:hover {
+     text-decoration: none;
+ }
+
+ /* ===================================================== */
+ .options_footer {
+     text-align: center;
+     margin-top: 20px;
+ }
+
+ .options_footer a {
+     color: #ffffff;
+     font-size: 20px;
+     text-decoration: blink;
+     display: inline-block;
+     padding: 5px 10px;
+     background-color: #000000;
+     border-radius: 10px;
+ }
+
+ .options_footer a strong {
+     font-weight: bold;
+ }
+
+ .options_footer a:hover {
+     /* background-color: #e10808; */
+     background-color: navy;
+     color: #ffffff;
+ }
+
+ /* ===================================================== */
+
+ .buttonx:active {
+     position: relative;
+     top: 2px;
+ }
+
+ .contact-details {
+     color: #000000;
+     font-size: 1.2rem;
+     text-align: center;
+ }
+
+ footer {
+     color: #000000;
+     font-size: 1.2rem;
+     margin-top: 20px;
+ }
