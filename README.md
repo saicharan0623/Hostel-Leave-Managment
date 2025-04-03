@@ -1,5 +1,8 @@
 # 🏨 Hostel Leave Management System for NMIMS
 
+<img src="https://nmimstechfiesta.in/images/stmelogo.png" alt="Techfest Logo" width="600" height="200">
+
+
 ## 📌 Overview
 Welcome to the **Hostel Leave Management System** – your one-stop digital solution for hassle-free leave requests! Say goodbye to paperwork and hello to efficiency. This system:
 - 🚀 **Digitizes** the leave approval process
