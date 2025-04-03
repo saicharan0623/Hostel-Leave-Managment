@@ -1,6 +1,5 @@
 # 🏨 Hostel Leave Management System for NMIMS
-
-<img src="https://nmimstechfiesta.in/images/stmelogo.png" alt="Techfest Logo" width="600" height="200">
+![Preview](reference-hl.png)
 
 
 ## 📌 Overview
