@@ -1,243 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About Us</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="/css/styles.css">
+  <title>Hostel Instructions</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+     <link rel="icon" href="../images/ico.png" type="image/x-icon">
+
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
   <style>
- body {
-      margin: 0;
-      padding: 0;
-      background-image: url("images/back4.jpg");
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
-      font-family: Arial, sans-serif;
+    body {
+      background-image: url("../images/back4.jpg");
       min-height: 100vh;
-      display: flex;
-      flex-direction: column;
+      font-family: Arial, sans-serif;
+      background-size: cover;
+    }
+    .navbar {
+      background-color: rgba(255, 255, 255, 0.8);
     }
 
-    header {
-      background-color: #fff;
-      width: 100%;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-      position: fixed;
-      top: 0;
-    }
-
-    .container {
-      background-color: transparent;
-      padding: 20px;
-      border-radius: 10px;
-      box-shadow: 0 4px 8px black;
-      animation: fadeIn 1s ease-in-out, moveUp 0.5s ease-in-out;
-      max-width: 800px;
-      width: 100%;
-      margin: 20px auto;
-      margin-top: 130px;
-      margin-bottom: 20px;
-    }
-
-    h1 {
-      -webkit-text-fill-color: red;
-    }
-
-    @keyframes fadeIn {
-      from {
-        opacity: 0;
-      }
-      to {
-        opacity: 1;
-      }
-    }
-
-    @keyframes moveUp {
-      from {
-        transform: translateY(20px);
-      }
-      to {
-        transform: translateY(0);
-      }
-    }
-
-    h1 {
-      color: black;
-      font-size: 36px;
-      margin-bottom: 20px;
-    }
-
-    p {
+    .navbar-brand {
+      font-weight: bold;
+      font-size: 24px;
       color: #333;
-      font-size: 18px;
-      line-height: 1.6;
-      text-align: left; /* Left-align text */
-      margin-left: 20px; /* Add a left margin for better readability */
+    }
+
+    .card {
+      background-color: rgba(255, 255, 255, 0.9);
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      margin-bottom: 20px;
+    }
+
+    .card h2 {
+      font-size: 24px;
+      color: rgb(186, 12, 47); /* Updated color */
+    }
+
+    .card p,
+    .card li {
+      color: #555;
+      font-size: 16px;
     }
 
     footer {
-      background-color: rgb(99,102,106);
+      background-color: #343a40;
       color: #fff;
-      padding: 10px;
-      width: 100%;
+      padding: 10px 0;
       text-align: center;
-      margin-top: auto;
     }
 
-
-    @keyframes fadeOut {
-      from {
-        opacity: 1;
-      }
-      to {
-        opacity: 0;
-      }
+    footer a {
+      color: white;
+      margin: 0 10px;
     }
 
-    /* Font size for screens between 992px and 1200px */
- @media (min-width: 1201px) {
-           .container {
-            width:100%;
-           }
-
-        }
-
-        /* Font size for screens between 992px and 1200px */
-        @media (min-width: 992px) and (max-width: 1200px) {
-          .container {
-            width:90%;
-           }
-        }
-
-        /* Font size for screens between 768px and 991px */
-        @media (min-width: 768px) and (max-width: 991px) {
-          .container {
-            width:70%;
-           }
-        }
-
-        /* Font size for screens narrower than 768px */
-        @media (max-width: 767px) {
-          .container {
-            width:80%;
-           }
-        }
-        #logo {
-        max-width: 100%;
-        height: auto;
-        position: absolute;
-        top: 50px;
-        left: 10px;
-        width: 150px;
+    .text-red {
+      color: rgb(186, 12, 47); /* Updated color */
     }
-    .gradient {
-     background: rgb(99,102,106)
-    }
-    /* Apply styles to tables */
-table {
-    border-collapse: collapse;
-    width: 100%;
-    margin: 10px 0;
-}
-
-/* Add border and spacing between table cells */
-table, th, td {
-    border: 1.5px solid #000;
-}
-
-/* Style table header cells */
-th {
-    background-color: #f2f2f2;
-    color: #333;
-}
-
-/* Style table data cells */
-td {
-    padding: 8px;
-    text-align: left;
-}
-
-/* Alternate row background color for better readability */
-tr:nth-child(even) {
-    background-color: #f2f2f2;
-}
-
-/* Add hover effect for better interaction */
-tr:hover {
-    background-color: #ddd;
-}
-li{
-  text-align: left;
-  
-}
-
   </style>
 </head>
+
 <body>
   <header>
     <?php include 'navbar.php'; ?>
-    <img id="logo" src="../public/images/back7.png" alt="Logo">
   </header>
 
-  <div class="container">
-    <h1>Hostel Instructions</h1>
-
-    <section>
-      <h2>Outing Timings</h2>
-      <table>
-        <tr>
-          <th>Day</th>
-          <th>Morning Outing</th>
-          <th>Evening Outing</th>
-        </tr>
-        <tr>
-          <td>Monday - Saturday</td>
-          <td>6:00 AM - 8:00 AM</td>
-          <td>4:00 PM - 8:00 PM</td>
-        </tr>
-        <tr>
-          <td>Sundays and Holidays</td>
-          <td>8:00 AM - 8:00 PM</td>
-          <td>8:00 AM - 8:00 PM</td>
-        </tr>
+  <div class="container mt-5">
+    <div id="outing-timings" class="card p-4">
+      <h2 class="text-center">Outing Timings</h2>
+      <table class="table table-bordered mt-3">
+        <thead class="thead-dark">
+          <tr>
+            <th>Day</th>
+            <th>Evening Outing</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Monday - Saturday</td>
+            <td>5:00 PM - 7:45 PM</td>
+          </tr>
+          <tr>
+            <td>Sundays and Holidays</td>
+            <td>8:00 AM - 8:00 PM</td>
+          </tr>
+        </tbody>
       </table>
-    </section>
+    </div>
 
-    <section>
-      <h2>Alcohol and Cigarettes</h2>
-      <li>Alcohol and cigarette consumption is strictly prohibited in the hostel premises.</li>
-    </section>
-
-    <section>
-      <h2>Outing Instructions</h2>
-      <ul>
-        <li>When returning from an outing, you are required to show your return pass.</li>
-        <li>If you return late after an outing, you must fill out a late entry form and obtain a late return pass.</li>
+    <!-- Alcohol and Cigarettes -->
+    <div id="alcohol-rules" class="card p-4">
+      <h2 class="text-center">Alcohol & Cigarettes</h2>
+      <ul class="list-group mt-3">
+        <li class="list-group-item">
+          <i class="fas fa-ban text-red"></i> Alcohol and cigarette consumption is strictly prohibited in the hostel premises.
+        </li>
       </ul>
-    </section>
+    </div>
 
-    <section>
-      <h2>General Hostel Instructions</h2>
-      <ul>
-        <li>Please ensure that you follow all hostel rules and regulations diligently.</li>
-        <li>Quiet hours in the hostel are from 10:00 PM to 6:00 AM. Please maintain silence during these hours.</li>
-        <li>Guests are not allowed inside the hostel rooms without prior permission from the hostel authorities.</li>
-        <li>Your safety and security are our top priorities. Always inform the hostel warden or security personnel about your whereabouts.</li>
-        <li>Do not leave the hostel premises after 10:00 PM without informing the hostel authorities.</li>
-        <li>If you have any concerns or face any issues, please report them immediately to the hostel warden or the university administration.</li>
+    <!-- Outing Instructions -->
+    <div class="card p-4">
+      <h2 class="text-center">Outing Instructions</h2>
+      <ul class="list-group mt-3">
+        <li class="list-group-item"><i class="fas fa-id-card text-red"></i> Show your return pass when returning from an outing.</li>
+        <li class="list-group-item"><i class="fas fa-clock text-red"></i> If late, fill out a late entry form and get a late return pass.</li>
       </ul>
-    </section>
+    </div>
 
-    <p>For any additional information or inquiries, you can contact the hostel office.</p>
-    <p>Our dedicated staff is ready to assist you with any questions or concerns you may have. Feel free to get in touch with us through the provided contact details.</p>
+    <!-- General Instructions -->
+    <div id="general-instructions" class="card p-4">
+      <h2 class="text-center">General Hostel Instructions</h2>
+      <ul class="list-group mt-3">
+        <li class="list-group-item"><i class="fas fa-book text-red"></i> Follow all hostel rules and regulations diligently.</li>
+        <li class="list-group-item"><i class="fas fa-bed text-red"></i> Quiet hours: 10:00 PM - 6:00 AM. Maintain silence during these hours.</li>
+        <li class="list-group-item"><i class="fas fa-users text-red"></i> Guests are not allowed inside rooms without prior permission.</li>
+      </ul>
+    </div>
   </div>
 
-  <footer>
-    <span> &copy; MALDE SAICHARAN All rights reserved.</span>
+  <!-- Footer -->
+  <footer class="mt-5">
+    <div class="container">
+      <p>&copy; 2024 MALDE SAICHARAN. All rights reserved.</p>
+    </div>
   </footer>
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
 </body>
+
 </html>

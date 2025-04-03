@@ -1,0 +1,140 @@
+[25-Sep-2024 18:03:33 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_Injector" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Injector/DisplayLinkURI.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Injector/DisplayLinkURI.php on line 6
+[25-Sep-2024 18:03:34 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_Injector" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Injector/PurifierLinkify.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Injector/PurifierLinkify.php on line 7
+[25-Sep-2024 18:03:34 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_Injector" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Injector/RemoveSpansWithoutAttributes.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Injector/RemoveSpansWithoutAttributes.php on line 6
+[25-Sep-2024 18:03:35 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_Injector" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Injector/AutoParagraph.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Injector/AutoParagraph.php on line 9
+[25-Sep-2024 18:03:36 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_Injector" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Injector/SafeObject.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Injector/SafeObject.php on line 7
+[25-Sep-2024 18:03:37 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_Injector" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Injector/Linkify.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Injector/Linkify.php on line 6
+[25-Sep-2024 18:03:38 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_Injector" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Injector/RemoveEmpty.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Injector/RemoveEmpty.php on line 3
+[25-Sep-2024 18:04:09 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_Injector" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Injector/AutoParagraph.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Injector/AutoParagraph.php on line 9
+[25-Sep-2024 18:04:11 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_Injector" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Injector/DisplayLinkURI.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Injector/DisplayLinkURI.php on line 6
+[25-Sep-2024 18:04:17 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_Injector" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Injector/Linkify.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Injector/Linkify.php on line 6
+[25-Sep-2024 18:04:24 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_Injector" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Injector/PurifierLinkify.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Injector/PurifierLinkify.php on line 7
+[25-Sep-2024 18:04:35 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_Injector" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Injector/RemoveSpansWithoutAttributes.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Injector/RemoveSpansWithoutAttributes.php on line 6
+[25-Sep-2024 18:04:36 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_Injector" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Injector/AutoParagraph.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Injector/AutoParagraph.php on line 9
+[25-Sep-2024 18:04:38 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_Injector" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Injector/RemoveEmpty.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Injector/RemoveEmpty.php on line 3
+[25-Sep-2024 18:04:42 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_Injector" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Injector/SafeObject.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Injector/SafeObject.php on line 7
+[25-Sep-2024 18:04:46 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_Injector" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Injector/DisplayLinkURI.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Injector/DisplayLinkURI.php on line 6
+[25-Sep-2024 18:04:59 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_Injector" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Injector/Linkify.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Injector/Linkify.php on line 6
+[25-Sep-2024 18:05:12 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_Injector" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Injector/AutoParagraph.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Injector/AutoParagraph.php on line 9
+[25-Sep-2024 18:05:17 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_Injector" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Injector/DisplayLinkURI.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Injector/DisplayLinkURI.php on line 6
+[25-Sep-2024 18:05:18 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_Injector" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Injector/PurifierLinkify.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Injector/PurifierLinkify.php on line 7
+[25-Sep-2024 18:05:32 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_Injector" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Injector/RemoveSpansWithoutAttributes.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Injector/RemoveSpansWithoutAttributes.php on line 6
+[25-Sep-2024 18:05:35 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_Injector" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Injector/SafeObject.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Injector/SafeObject.php on line 7
+[25-Sep-2024 18:05:38 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_Injector" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Injector/RemoveEmpty.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Injector/RemoveEmpty.php on line 3
+[25-Sep-2024 18:05:46 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_Injector" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Injector/RemoveSpansWithoutAttributes.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Injector/RemoveSpansWithoutAttributes.php on line 6
+[25-Sep-2024 18:05:46 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_Injector" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Injector/SafeObject.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Injector/SafeObject.php on line 7
+[25-Sep-2024 18:05:46 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_Injector" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Injector/AutoParagraph.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Injector/AutoParagraph.php on line 9
+[25-Sep-2024 18:05:47 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_Injector" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Injector/Linkify.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Injector/Linkify.php on line 6
+[25-Sep-2024 18:05:51 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_Injector" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Injector/PurifierLinkify.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Injector/PurifierLinkify.php on line 7
+[25-Sep-2024 18:05:53 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_Injector" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Injector/RemoveSpansWithoutAttributes.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Injector/RemoveSpansWithoutAttributes.php on line 6
+[25-Sep-2024 18:05:55 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_Injector" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Injector/SafeObject.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Injector/SafeObject.php on line 7
+[25-Sep-2024 18:05:55 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_Injector" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Injector/DisplayLinkURI.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Injector/DisplayLinkURI.php on line 6
+[25-Sep-2024 18:05:55 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_Injector" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Injector/RemoveEmpty.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Injector/RemoveEmpty.php on line 3
+[25-Sep-2024 18:05:59 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_Injector" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Injector/Linkify.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Injector/Linkify.php on line 6
+[25-Sep-2024 18:06:02 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_Injector" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Injector/RemoveEmpty.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Injector/RemoveEmpty.php on line 3
+[25-Sep-2024 18:06:06 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_Injector" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Injector/PurifierLinkify.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Injector/PurifierLinkify.php on line 7

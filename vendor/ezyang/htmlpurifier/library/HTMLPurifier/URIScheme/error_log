@@ -1,0 +1,60 @@
+[25-Sep-2024 18:03:36 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_URIScheme" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/URIScheme/ftp.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/URIScheme/ftp.php on line 6
+[25-Sep-2024 18:03:39 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_URIScheme" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/URIScheme/file.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/URIScheme/file.php on line 6
+[25-Sep-2024 18:03:44 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_URIScheme" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/URIScheme/data.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/URIScheme/data.php on line 6
+[25-Sep-2024 18:04:11 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_URIScheme" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/URIScheme/ftp.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/URIScheme/ftp.php on line 6
+[25-Sep-2024 18:04:21 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_URIScheme" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/URIScheme/file.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/URIScheme/file.php on line 6
+[25-Sep-2024 18:04:36 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_URIScheme" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/URIScheme/data.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/URIScheme/data.php on line 6
+[25-Sep-2024 18:04:54 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_URIScheme" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/URIScheme/ftp.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/URIScheme/ftp.php on line 6
+[25-Sep-2024 18:04:58 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_URIScheme" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/URIScheme/file.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/URIScheme/file.php on line 6
+[25-Sep-2024 18:05:19 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_URIScheme" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/URIScheme/data.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/URIScheme/data.php on line 6
+[25-Sep-2024 18:05:23 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_URIScheme" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/URIScheme/ftp.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/URIScheme/ftp.php on line 6
+[25-Sep-2024 18:05:28 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_URIScheme" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/URIScheme/data.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/URIScheme/data.php on line 6
+[25-Sep-2024 18:05:29 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_URIScheme" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/URIScheme/ftp.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/URIScheme/ftp.php on line 6
+[25-Sep-2024 18:05:35 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_URIScheme" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/URIScheme/data.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/URIScheme/data.php on line 6
+[25-Sep-2024 18:05:40 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_URIScheme" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/URIScheme/file.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/URIScheme/file.php on line 6
+[25-Sep-2024 18:06:08 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_URIScheme" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/URIScheme/file.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/URIScheme/file.php on line 6

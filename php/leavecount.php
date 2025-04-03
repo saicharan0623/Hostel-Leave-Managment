@@ -1,21 +1,10 @@
 <?php
-$hostname = "localhost";
-$username = "root";
-$password = "";
-$database = "college_db";
-
-$conn = mysqli_connect($hostname, $username, $password, $database);
-
-if (!$conn) {
-    die("Connection failed: " . mysqli_connect_error());
-}
-
-// Fetch data from the 'schools' table and count the leaves for each school
+include 'database_config.php';
 $sql = "SELECT school, COUNT(*) AS leave_count FROM schools GROUP BY school";
-$result = mysqli_query($conn, $sql);
+$result = mysqli_query($mysqli, $sql);
 
 if (!$result) {
-    die("Query failed: " . mysqli_error($conn));
+    die("Query failed: " . mysqli_error($mysqli));
 }
 
 $data = array();
@@ -24,8 +13,8 @@ while ($row = mysqli_fetch_assoc($result)) {
     $data[] = $row;
 }
 
-// Close the database connection
-mysqli_close($conn);
+// Close the database mysqliection
+mysqli_close($mysqli);
 
 // Return data as JSON response
 header('Content-Type: application/json');

@@ -1,0 +1,36 @@
+[25-Sep-2024 18:03:14 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_Filter" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Filter/ExtractStyleBlocks.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Filter/ExtractStyleBlocks.php on line 25
+[25-Sep-2024 18:03:14 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_Filter" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Filter/YouTube.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Filter/YouTube.php on line 3
+[25-Sep-2024 18:03:20 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_Filter" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Filter/ExtractStyleBlocks.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Filter/ExtractStyleBlocks.php on line 25
+[25-Sep-2024 18:03:23 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_Filter" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Filter/YouTube.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Filter/YouTube.php on line 3
+[25-Sep-2024 18:03:43 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_Filter" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Filter/ExtractStyleBlocks.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Filter/ExtractStyleBlocks.php on line 25
+[25-Sep-2024 18:04:00 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_Filter" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Filter/YouTube.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Filter/YouTube.php on line 3
+[25-Sep-2024 18:04:40 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_Filter" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Filter/YouTube.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Filter/YouTube.php on line 3
+[25-Sep-2024 18:04:45 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_Filter" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Filter/ExtractStyleBlocks.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Filter/ExtractStyleBlocks.php on line 25
+[25-Sep-2024 18:05:24 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_Filter" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Filter/YouTube.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Filter/YouTube.php on line 3

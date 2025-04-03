@@ -1,0 +1,36 @@
+[25-Sep-2024 18:03:18 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_VarParser" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/VarParser/Native.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/VarParser/Native.php on line 8
+[25-Sep-2024 18:03:25 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_VarParser" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/VarParser/Native.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/VarParser/Native.php on line 8
+[25-Sep-2024 18:03:25 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_VarParser" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/VarParser/Flexible.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/VarParser/Flexible.php on line 8
+[25-Sep-2024 18:04:03 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_VarParser" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/VarParser/Flexible.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/VarParser/Flexible.php on line 8
+[25-Sep-2024 18:04:04 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_VarParser" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/VarParser/Native.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/VarParser/Native.php on line 8
+[25-Sep-2024 18:04:50 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_VarParser" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/VarParser/Native.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/VarParser/Native.php on line 8
+[25-Sep-2024 18:04:53 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_VarParser" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/VarParser/Flexible.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/VarParser/Flexible.php on line 8
+[25-Sep-2024 18:05:22 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_VarParser" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/VarParser/Flexible.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/VarParser/Flexible.php on line 8
+[25-Sep-2024 18:05:34 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_VarParser" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/VarParser/Native.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/VarParser/Native.php on line 8

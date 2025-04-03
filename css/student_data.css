@@ -1,0 +1,476 @@
+
+    .switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 34px;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 50%;
+}
+
+input:checked + .slider {
+    background-color: #2196F3;
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+
+    @media (min-width: 768px) {
+     
+      td.student-details,
+      td.sap-id,
+      td.leave-type,
+      td.intime,
+      td.outtime,
+      td.image,
+      td.approve,
+      td.reject {
+        display: table-cell;
+      }
+
+      /* Adjust font size for larger screens */
+      th,
+      td {
+        font-size: 14px;
+      }
+    }
+
+    /* Styles for smaller screens (tablets and smartphones) */
+    @media (max-width: 767px) {      
+
+      td.student-details,
+      td.sap-id,
+      td.leave-type,
+      td.intime,
+      td.outtime,
+      td.image,
+      td.approve,
+      td.reject {
+        display: none;
+      }
+
+      /* Display a button to show/hide additional information */
+      td.more-info-button {
+        display: table-cell;
+      }
+
+      /* Adjust font size for smaller screens */
+      th,
+      td {
+        font-size: 12px;
+      }
+
+    }
+
+    /* Additional styles for even smaller screens (smartphones) */
+    @media (max-width: 480px) {
+
+      /* Further reduce font size */
+      th,
+      td {
+        font-size: 10px;
+      }
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      background-image: url("../php/images/back4.jpg");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      font-family: Arial, sans-serif;
+      min-height: 200vh;
+      /* Ensure the body takes up at least the full viewport height */
+      display: flex;
+      flex-direction: column;
+    }
+
+    .container1 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    h1 {
+      text-align: center;
+      color: #e10808;
+      /* font-size: 36px; */
+      margin-bottom: 30px;
+      position: relative;
+    }
+
+    /* Base table styles */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+      background-color: #fff;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+      animation: fade-in 1s ease-in-out;
+    }
+
+    th,
+    td {
+      border: 2px solid #000000;
+      padding: 10px;
+      text-align: center;
+    }
+
+    th {
+      background-color: #ff4444;
+      color: #fff;
+    }
+
+    tr:nth-child(even) {
+      background-color: #fff;
+    }
+
+    tr:nth-child(odd) {
+      background-color: #f1f1f1;
+    }
+
+    td.student-details,
+    td.sap-id {
+      background-color: #fff;
+      color: #000;
+    }
+
+    td.status-approve {
+      background-color: #ffffff;
+      /* Green */
+      color: #000000;
+    }
+
+    td.status-reject {
+      background-color: #ffffff;
+      /* Red */
+      color: #000000;
+    }
+
+    td a {
+      display: block;
+      padding: 10px;
+      color: #000000;
+      text-decoration: none;
+      transition: background-color 0.3s ease, color 0.3s ease;
+      height: 100%;
+      width: 100%;
+      box-sizing: border-box;
+    }
+
+    td.status-approve a:hover {
+      background-color: #47ff04;
+      color: #000000;
+      background-size: auto;
+    }
+
+    td.status-reject a:hover {
+      background-color: #ff0000;
+      color: #000000;
+      background-size: auto;
+    }
+
+    /* Responsive styles for smaller screens (tablets and smartphones) */
+    @media (max-width: 767px) {
+      table {
+        font-size: 12px;
+        /* Reduce font size for smaller screens */
+      }
+
+      th,
+      td {
+        padding: 8px;
+        /* Adjust cell padding for smaller screens */
+      }
+
+      td {
+        display: block;
+        width: 50%;
+      }
+
+      td:before {
+        content: attr(data-label);
+        /* Use "data-label" attribute content as label for each cell */
+        font-weight: bold;
+        text-transform: uppercase;
+      }
+    }
+
+    div1 {
+      border: 1px solid red;
+    }
+
+    .date {
+      top: 10px;
+      right: 10px;
+      font-size: 18px;
+    }
+   
+    .logo img {
+      max-height: 90px;
+    }
+
+    /* Media queries for different device widths */
+    @media (min-width: 320px) {
+
+      /* Styles for small smartphones */
+      .table {
+        width: 50%;
+      }
+    }
+
+    @media (min-width: 480px) {
+
+      /* Styles for larger smartphones */
+      .container1 {
+        width: 70%;
+      }
+
+      .table {
+        width: 50%;
+      }
+    }
+
+    @media (min-width: 768px) {
+
+      /* Styles for tablets */
+      .container1 {
+        width: 70%;
+      }
+
+      .table {
+        width: 70%;
+      }
+    }
+
+    @media (min-width: 992px) {
+
+      /* Styles for laptops and desktops */
+      .table {
+        width: 95%;
+      }
+    }
+
+    @media (min-width: 1200px) {
+
+      /* Styles for large desktop screens */
+      .container1 {
+        width: 60%;
+      }
+
+      .table {
+        width: 100%;
+      }
+    }
+
+    .footer {
+      background-color: rgb(99, 102, 106);
+      /* Background color in RGB */
+      color: #fff;
+      /* Text color */
+      padding: 10px;
+      /* Adjust padding as needed */
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      text-align: center;
+    }
+
+    /* Clear the body's margin to avoid overlap with the footer */
+    body {
+      margin: 0;
+      padding-bottom: 60px;
+      /* Adjust this value to match the footer's height */
+    }
+
+    /* =================== IMAGE RELATED ======================= */
+    .imgx {
+      width: 50px;
+      height: 50px;
+      background-size: cover;
+    position: relative;
+      /* Needed for positioning the modal */
+      cursor: pointer;
+
+    }
+
+    .imgxx {
+      width: 0px;
+      height: 0px;
+    }
+
+    .enlarge-modal {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.8);
+      justify-content: center;
+      align-items: center;
+    }
+
+    .enlarge-image {
+      max-width: 90%;
+      max-height: 90%;
+    }
+
+    .footer {
+      background: rgb(99, 102, 106);
+      text-align: center;
+      padding: 10px 0;
+      color: #fff;
+    }
+
+       /* Hover effect for the search container */
+    .search-container:hover {
+      border-color: #ff0000;
+    }
+
+   
+
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url("../php/images/back4.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        h1 {
+            text-align: center;
+            color: #e10808;
+            font-size: 36px;
+            margin-bottom: 30px;
+        }
+
+        .menu {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .menu a {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #000000;
+            color: #fff;
+            text-decoration: none;
+            margin-right: 10px;
+        }
+
+        .menu a:hover {
+            background-color: #e60505;
+        }
+
+        .date {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            font-size: 18px;
+        }
+
+        .logo {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            margin-left: 10px;
+        }
+
+        .logo img {
+            max-height: 90px;
+        }
+
+        /* Style for the container div */
+        .charts-container {
+            display: flex;
+            /* Use flexbox to align side by side */
+            justify-content: space-between;
+            /* Space evenly between charts */
+            max-width: 1000px;
+            /* Adjust the width as needed */
+            margin: 0 auto;
+            /* Center the container horizontally */
+        }
+
+        /* Style for individual chart divs */
+        .chart {
+            flex: 0.5;
+            /* Distribute equal width for both charts */
+            max-width: 45%;
+            /* Adjust the max-width as needed */
+        }
+
+        .export-button {
+            padding: 10px 20px;
+            background-color: #000000;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .export-button:hover {
+            background-color: #45a049;
+        }
+
+        /* Style for chart labels */
+        .chart-label {
+            text-align: center;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+
+        .footer {
+            background-color: rgb(99, 102, 106);
+            /* Background color in RGB */
+            color: #fff;
+            /* Text color */
+            padding: 10px;
+            /* Adjust padding as needed */
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+        }

@@ -1,0 +1,112 @@
+[25-Sep-2024 19:07:14 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule_Tidy_XHTMLAndHTML4" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Tidy/Strict.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Tidy/Strict.php on line 3
+[25-Sep-2024 19:07:17 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule_Tidy" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Tidy/XHTML.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Tidy/XHTML.php on line 3
+[25-Sep-2024 19:07:17 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule_Tidy" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Tidy/XHTMLAndHTML4.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Tidy/XHTMLAndHTML4.php on line 3
+[25-Sep-2024 19:07:18 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule_Tidy" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Tidy/Name.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Tidy/Name.php on line 6
+[25-Sep-2024 19:07:18 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule_Tidy" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Tidy/Proprietary.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Tidy/Proprietary.php on line 3
+[25-Sep-2024 19:07:24 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule_Tidy_XHTMLAndHTML4" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Tidy/Strict.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Tidy/Strict.php on line 3
+[25-Sep-2024 19:07:27 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule_Tidy" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Tidy/XHTML.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Tidy/XHTML.php on line 3
+[25-Sep-2024 19:07:33 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule_Tidy" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Tidy/XHTMLAndHTML4.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Tidy/XHTMLAndHTML4.php on line 3
+[25-Sep-2024 19:07:34 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule_Tidy_XHTMLAndHTML4" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Tidy/Transitional.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Tidy/Transitional.php on line 3
+[25-Sep-2024 19:07:35 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule_Tidy" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Tidy/Proprietary.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Tidy/Proprietary.php on line 3
+[25-Sep-2024 19:07:38 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule_Tidy" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Tidy/XHTML.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Tidy/XHTML.php on line 3
+[25-Sep-2024 19:07:39 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule_Tidy" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Tidy/Name.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Tidy/Name.php on line 6
+[25-Sep-2024 19:07:41 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule_Tidy_XHTMLAndHTML4" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Tidy/Strict.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Tidy/Strict.php on line 3
+[25-Sep-2024 19:07:43 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule_Tidy" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Tidy/XHTMLAndHTML4.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Tidy/XHTMLAndHTML4.php on line 3
+[25-Sep-2024 19:07:45 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule_Tidy" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Tidy/Name.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Tidy/Name.php on line 6
+[25-Sep-2024 19:07:47 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule_Tidy" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Tidy/Proprietary.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Tidy/Proprietary.php on line 3
+[25-Sep-2024 19:07:48 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule_Tidy_XHTMLAndHTML4" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Tidy/Transitional.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Tidy/Transitional.php on line 3
+[25-Sep-2024 19:07:51 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule_Tidy" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Tidy/XHTML.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Tidy/XHTML.php on line 3
+[25-Sep-2024 19:07:52 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule_Tidy" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Tidy/XHTMLAndHTML4.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Tidy/XHTMLAndHTML4.php on line 3
+[25-Sep-2024 19:07:54 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule_Tidy_XHTMLAndHTML4" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Tidy/Strict.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Tidy/Strict.php on line 3
+[25-Sep-2024 19:07:55 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule_Tidy" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Tidy/Name.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Tidy/Name.php on line 6
+[25-Sep-2024 19:07:56 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule_Tidy" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Tidy/Proprietary.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Tidy/Proprietary.php on line 3
+[25-Sep-2024 19:07:56 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule_Tidy_XHTMLAndHTML4" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Tidy/Transitional.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Tidy/Transitional.php on line 3
+[25-Sep-2024 19:07:59 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule_Tidy" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Tidy/XHTML.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Tidy/XHTML.php on line 3
+[25-Sep-2024 19:08:01 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule_Tidy" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Tidy/XHTMLAndHTML4.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Tidy/XHTMLAndHTML4.php on line 3
+[25-Sep-2024 19:08:02 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule_Tidy_XHTMLAndHTML4" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Tidy/Strict.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Tidy/Strict.php on line 3
+[25-Sep-2024 19:08:02 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule_Tidy" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Tidy/Name.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Tidy/Name.php on line 6
+[25-Sep-2024 19:08:03 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule_Tidy_XHTMLAndHTML4" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Tidy/Transitional.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Tidy/Transitional.php on line 3

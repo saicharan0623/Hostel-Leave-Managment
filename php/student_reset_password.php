@@ -1,168 +1,111 @@
 <?php
 session_start();
-
-/* if (isset($_GET['token'])) {
-    $email = $_GET["email"];
-} */
+include 'database_config.php';
 
 $newPassword = '';
+$newPasswordConfirm = '';
+$resetValid = false; // Initialize resetValid to false
+
 if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['new_password'])) {
-$newPassword = $_POST["new_password"];
+    $newPassword = $_POST["new_password"];
+    $newPasswordConfirm = $_POST["new_password_confirm"]; // Get the confirmation password
+
+    // Check if both passwords match
+    if ($newPassword !== $newPasswordConfirm) {
+        $passwordError = "Passwords do not match. Please try again.";
+    }
 }
 
 // Check if the reset token is valid and not expired
-if (isset($_GET['token'])) {
+if (isset($_GET['token']) && isset($_GET['email'])) {
     $resetToken = $_GET['token'];
-    $email = $_GET["email"];
- 
-    // Database connection
-    $servername = "localhost";
-    $username = "root";
-    $password = "";
-    $dbname = "college_db";
-    $conn = new mysqli($servername, $username, $password, $dbname);
+    $email = $_GET['email'];
 
-    if ($conn->connect_error) {
-        die("Connection failed: " . $conn->connect_error);
-    }
-
-    // Check if the reset token exists and is not expired
     $currentDateTime = date('Y-m-d H:i:s');
-    $sql = "SELECT * FROM password_reset WHERE reset_token = '$resetToken' AND token_expires > '$currentDateTime' AND email = '$email'";    
+    
+    // Query to check if the reset token is valid and has not expired
+    $sql = "SELECT * FROM student WHERE reset_token = '$resetToken' AND reset_token_expires > '$currentDateTime' AND email = '$email'";    
 
-    $result = $conn->query($sql);
+    $result = $mysqli->query($sql);
 
     if ($result->num_rows > 0) {
-        // Valid reset token, allow user to reset password
         $resetValid = true;
-        //------------------------------------------------------------------------
-        //CHECK IF THE ABOVE EMAIL IS AVAILABLE IN THE password_reset table and update the new password with Argon2 hashing
-        //if above email is not available, redirect to student login page
 
-        $hashedPassword = password_hash($newPassword, PASSWORD_ARGON2I);
+        // Proceed to update password only if it is valid and passwords match
+        if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['new_password']) && $newPassword === $newPasswordConfirm) {
+            $hashedPassword = password_hash($newPassword, PASSWORD_ARGON2I);
+            
+            // Update the password in the student table
+            $sqlUpd = "UPDATE student SET password = '$hashedPassword', reset_token = NULL, reset_token_expires = NULL WHERE email = '$email'";    
 
-        $sqlUpd = "UPDATE password_reset SET password = '$hashedPassword' WHERE email = '$email'";    
-
-        $resultUpd = $conn->query($sqlUpd);
-        //------------------------------------------------------------------------
+            $resultUpd = $mysqli->query($sqlUpd);
+            if ($resultUpd) {
+                $resetMessage = "Password reset successful! You can now login with your new password.";
+            } else {
+                $passwordError = "Error updating password. Please try again.";
+            }
+        }
     } else {
-        // Invalid or expired reset token
         $resetValid = false;
     }
 
-    // Close the database connection
-    $conn->close();
-
-   /*  header("Location: student_login.php");
-    exit();  */
+    $mysqli->close();
 } else {
-    // No reset token provided
     $resetValid = false;
 }
-
-// Handle password reset form submission
-if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['new_password']) && $resetValid) {
-    // Validate and update the new password in your database
-    // Implement your password update logic here
-
-    // Display success message or error message
-    $resetMessage = "Password reset successful! You can now login with your new password.";
-}
-
-
 ?>
-
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Password Reset</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background-color: #f0f0f0;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-        }
-
-        .container {
-            background-color: #ffffff;
-            border-radius: 10px;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
-            text-align: center;
-            padding: 20px;
-            max-width: 400px;
-        }
-
-        h2 {
-            font-size: 24px;
-            margin-bottom: 20px;
-        }
-
-        p {
-            font-size: 16px;
-            margin-bottom: 20px;
-        }
-
-        form {
-            margin-top: 20px;
-        }
-
-        label {
-            display: block;
-            font-size: 16px;
-            margin-bottom: 10px;
-        }
-
-        input[type="password"] {
-            padding: 10px;
-            font-size: 16px;
-            width: 90%;
-            border: 2px solid red;
-            border-radius: 5px;
-            margin-bottom: 20px;
-            text-align: center; /* Align text in the password input */
-        }
-
-        input[type="submit"] {
-            padding: 10px 20px;
-            background-color: #000;
-            color: #fff;
-            border: none;
-            border-radius: 5px;
-            font-size: 16px;
-            cursor: pointer;
-            transition: background-color 0.3s ease;
-        }
-
-        input[type="submit"]:hover {
-            background-color: #ff0000;
+            background-image: url("../images/back4.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
         }
     </style>
 </head>
-<body>
-    <div class="container">
-        <?php if ($resetValid) { ?>
-            <h2>Student Reset Your Password</h2>
-            <?php if (isset($resetMessage)) { ?>
-                <p><?php echo $resetMessage; ?></p>
-            <?php } else { ?>
-                <form method="POST">
-                    <label for="email"><?php echo $email; ?></label>
-                    <label for="new_password">New Password:</label>
-                    <input type="password" id="new_password" name="new_password" placeholder="Enter your new password" required>
-                    <input type="submit" value="Reset Password">
-                </form>
-            <?php } ?>
-        <?php } else { ?>
-            <p>Invalid or expired reset token. Please request a new password reset.</p>
-        <?php } ?>
+<body class="bg-light">
+    <div class="container d-flex align-items-center justify-content-center" style="min-height: 100vh;">
+        <div class="card" style="width: 400px;">
+            <div class="card-body text-center">
+                <?php if ($resetValid) { ?>
+                    <h5 class="card-title">Reset Your Password</h5>
+                    <?php if (isset($resetMessage)) { ?>
+                        <p class="card-text text-success"><?php echo $resetMessage; ?></p>
+                        <a href="student_login_page.php" class="btn btn-primary">Back to Login</a>
+                    <?php } else { ?>
+                        <form method="POST">
+                            <div class="form-group">
+                                <label for="email">Email: <?php echo htmlspecialchars($email); ?></label>
+                            </div>
+                            <div class="form-group">
+                                <label for="new_password">New Password:</label>
+                                <input type="password" id="new_password" name="new_password" class="form-control" placeholder="Enter your new password" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="new_password_confirm">Confirm New Password:</label>
+                                <input type="password" id="new_password_confirm" name="new_password_confirm" class="form-control" placeholder="Confirm your new password" required>
+                            </div>
+                            <?php if (isset($passwordError)) { ?>
+                                <p class="text-danger"><?php echo $passwordError; ?></p>
+                            <?php } ?>
+                            <input type="submit" class="btn btn-dark" value="Reset Password">
+                        </form>
+                    <?php } ?>
+                <?php } else { ?>
+                    <p class="text-danger">Invalid or expired reset token. Please request a new password reset.</p>
+                <?php } ?>
+            </div>
+        </div>
     </div>
-    <?php include 'footer.php'; ?>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>

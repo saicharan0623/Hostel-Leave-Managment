@@ -1,0 +1,36 @@
+[25-Sep-2024 18:03:10 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_TagTransform" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/TagTransform/Font.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/TagTransform/Font.php on line 18
+[25-Sep-2024 18:03:21 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_TagTransform" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/TagTransform/Simple.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/TagTransform/Simple.php on line 8
+[25-Sep-2024 18:03:21 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_TagTransform" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/TagTransform/Font.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/TagTransform/Font.php on line 18
+[25-Sep-2024 18:03:40 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_TagTransform" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/TagTransform/Font.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/TagTransform/Font.php on line 18
+[25-Sep-2024 18:03:47 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_TagTransform" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/TagTransform/Simple.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/TagTransform/Simple.php on line 8
+[25-Sep-2024 18:04:30 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_TagTransform" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/TagTransform/Font.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/TagTransform/Font.php on line 18
+[25-Sep-2024 18:04:32 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_TagTransform" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/TagTransform/Simple.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/TagTransform/Simple.php on line 8
+[25-Sep-2024 18:05:18 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_TagTransform" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/TagTransform/Simple.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/TagTransform/Simple.php on line 8
+[25-Sep-2024 18:05:19 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_TagTransform" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/TagTransform/Font.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/TagTransform/Font.php on line 18

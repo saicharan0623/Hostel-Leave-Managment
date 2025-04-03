@@ -1,0 +1,80 @@
+[25-Sep-2024 19:07:57 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_AttrDef" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrDef/URI/Email.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrDef/URI/Email.php on line 3
+[25-Sep-2024 19:07:57 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_AttrDef" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrDef/URI/IPv4.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrDef/URI/IPv4.php on line 7
+[25-Sep-2024 19:08:05 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_AttrDef" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrDef/URI/Email.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrDef/URI/Email.php on line 3
+[25-Sep-2024 19:08:11 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_AttrDef" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrDef/URI/IPv4.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrDef/URI/IPv4.php on line 7
+[25-Sep-2024 19:08:12 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_AttrDef" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrDef/URI/Email.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrDef/URI/Email.php on line 3
+[25-Sep-2024 19:08:26 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_AttrDef" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrDef/URI/Email.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrDef/URI/Email.php on line 3
+[25-Sep-2024 19:08:26 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_AttrDef" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrDef/URI/IPv4.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrDef/URI/IPv4.php on line 7
+[25-Sep-2024 19:09:02 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_AttrDef" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrDef/URI/IPv4.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrDef/URI/IPv4.php on line 7
+[25-Sep-2024 19:09:10 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_AttrDef" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrDef/URI/Email.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrDef/URI/Email.php on line 3
+[25-Sep-2024 19:10:04 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_AttrDef" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrDef/URI/IPv4.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrDef/URI/IPv4.php on line 7
+[25-Sep-2024 19:11:40 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_AttrDef_URI_IPv4" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrDef/URI/IPv6.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrDef/URI/IPv6.php on line 9
+[25-Sep-2024 19:11:49 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_AttrDef_URI_IPv4" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrDef/URI/IPv6.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrDef/URI/IPv6.php on line 9
+[25-Sep-2024 19:11:57 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_AttrDef_URI_IPv4" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrDef/URI/IPv6.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrDef/URI/IPv6.php on line 9
+[25-Sep-2024 19:12:07 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_AttrDef_URI_IPv4" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrDef/URI/IPv6.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrDef/URI/IPv6.php on line 9
+[25-Sep-2024 19:12:13 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_AttrDef_URI_IPv4" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrDef/URI/IPv6.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrDef/URI/IPv6.php on line 9
+[25-Sep-2024 19:12:52 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_AttrDef" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrDef/URI/Host.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrDef/URI/Host.php on line 6
+[25-Sep-2024 19:12:59 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_AttrDef" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrDef/URI/Host.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrDef/URI/Host.php on line 6
+[25-Sep-2024 19:13:06 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_AttrDef" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrDef/URI/Host.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrDef/URI/Host.php on line 6
+[25-Sep-2024 19:13:12 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_AttrDef" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrDef/URI/Host.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrDef/URI/Host.php on line 6
+[25-Sep-2024 19:13:20 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_AttrDef" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrDef/URI/Host.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrDef/URI/Host.php on line 6

@@ -17,18 +17,10 @@ if (isset($_SESSION["finalPosition"])) {
     $finalPosition = "Default Position"; // Set a default value
 }
 
-// Include database connection and data retrieval logic
-$hostname = "localhost";
-$username = "root";
-$password = "";
-$database = "college_db";
+include 'database_config.php';
 
 try {
-    // Create a new PDO instance
-    $pdo = new PDO("mysql:host=$hostname;dbname=$database", $username, $password);
 
-    // Set PDO error mode to exception
-    $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
     // Retrieve the selected month from the form
     $selectedMonth = isset($_POST['selectedMonth']) ? $_POST['selectedMonth'] : date('m');
@@ -60,7 +52,7 @@ $pdo = null;
         body {
             font-family: Arial, sans-serif;
             background-color: #f1f1f1;
-            background-image: url("images/back4.jpg");
+            background-image: url("../images/back4.jpg");
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center;
@@ -197,13 +189,9 @@ $pdo = null;
 </head>
 <body>
     <h1>Month Wise Data</h1>
-    <!-- Add a button to go back to the school-wise data page -->
     <div class="menu">
         <a href="data_visualization.php">Back to School Wise</a>
     </div>
-
-    <!-- Add a form to select the month to filter by -->
-   <!-- Add a form to select the month to filter by -->
 <form method="POST">
     <label for="selectedMonth" class="month-label">Select a Month:</label>
     <select name="selectedMonth" id="selectedMonth" class="month-select">

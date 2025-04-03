@@ -1,413 +1,168 @@
 <?php
 session_start();
 
-require '../vendor/autoload.php'; // Include the autoloader
-
-use PhpOffice\PhpSpreadsheet\IOFactory;
-
-// Database configuration
-$hostname = "localhost";
-$username = "root";
-$password = "";
-$database = "college_db"; // Updated to the correct database name
-
-// Path to your Excel file
-$excelFilePath = '../sample.xlsx';
-
-// Get the email provided during login
-$email = $_SESSION['email'];
-
-// Load the Excel file
-$spreadsheet = IOFactory::load($excelFilePath);
-
-$worksheet = $spreadsheet->getActiveSheet();
-$highestRow = $worksheet->getHighestRow();
-
-// Find the row that matches the provided email
-$studentData = null;
-for ($row = 2; $row <= $highestRow; $row++) {
-    if ($worksheet->getCell('A' . $row)->getValue() == $email) {
-        $studentData = array(
-            'id' => $row - 1, // Assuming your IDs start from 1
-            'student_name' => $worksheet->getCell('C' . $row)->getValue(),
-            'student_id' => $worksheet->getCell('D' . $row)->getValue(),
-            'email' => $email,
-            'department' => $worksheet->getCell('E' . $row)->getValue(),
-            'batch' => $worksheet->getCell('G' . $row)->getValue(),
-            'phone' => $worksheet->getCell('F' . $row)->getValue(),
-            'gender' => $worksheet->getCell('H' . $row)->getValue(),
-        );
-        break;
-    }
+// Check if student ID is set in the session
+if (!isset($_SESSION["student_id"])) {
+    header("Location: student_login_page.php");
+    exit();
 }
 
-// Check if the form was submitted
-if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    // Check the value of the submitted action
-    $action = isset($_POST['action']) ? $_POST['action'] : '';
+// Get the student ID from the session
+$student_id = $_SESSION["student_id"];
 
-    // If "History/Status" button was clicked, redirect to history.php
-    if ($action === 'History/Status') {
-        header("Location: history.php");
-        exit();
-    }
+require '../vendor/autoload.php';
+include 'database_config.php';
 
-    // Process other form actions (e.g., submitting "Inform Return" form)
-    if ($action === 'late Return') {
-        // Process the form data
-        $comments = $_POST['comments'];
-        $submissionTime = $_POST['submission_time'];
-        // Create a database connection
-        $conn = new mysqli($hostname, $username, $password, $database);
+// Get the current time
+$currentTime = new DateTime("now", new DateTimeZone('Asia/Kolkata')); // 'Asia/Kolkata' timezone
+$startTime = new DateTime("12:00", new DateTimeZone('Asia/Kolkata')); // 7:45 PM
+$endTime = new DateTime("06:00", new DateTimeZone('Asia/Kolkata'));   // 6:00 AM next day
 
-        // Check for a successful database connection
-        if ($conn->connect_error) {
-            die("Database connection failed: " . $conn->connect_error);
-        }
-
-        // Prepare and execute an SQL insert statement
-        $sql = "INSERT INTO late_outing (student_name, student_id, email, department, batch, phone, gender,submission_time, comments)
-        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
-        $stmt = $conn->prepare($sql);
-        $stmt->bind_param("sssssssssss", $studentData['student_name'], $studentData['student_id'], $studentData['email'], $studentData['department'], $studentData['batch'], $studentData['phone'], $studentData['gender'],$submissionTime, $comments);
-
-        if ($stmt->execute()) {
-            // Data inserted successfully
-            // You can redirect to a success page or display a confirmation message
-            header("Location: late_outing_success.php");
-            exit();
-        } else {
-            // Handle the case where data insertion fails
-            echo "Error: " . $conn->error;
-        }
-
-        // Close the database connection
-        $stmt->close();
-        $conn->close();
-    }
+// Allow access only between 7:45 PM and 6:00 AM
+if ($currentTime < $startTime && $currentTime > $endTime) {
+    echo "<div class='container'>
+                <h1>You can access this page only between 7:45 PM and 6:00 AM.</h1>
+          </div>";
+    echo "<style>
+            * {
+                margin: 0;
+                padding: 0;
+            }
+            body, html {
+                height: 100%;
+                font-family: Arial, sans-serif;
+                background: url('../images/back4.jpg') no-repeat center center fixed;
+                background-size: cover; /* Makes sure the image covers the entire page */
+            }
+            h1 {
+                font-size: 40px;
+            }
+            .container {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                width:600px;
+                margin:20px auto;
+            }
+          
+          </style>";
+    exit();
 }
+
+// Fetch student details from the students table
+$sql = "SELECT student_id,student_name, student_email, department, batch, phone, gender FROM students WHERE student_id = ?";
+$stmt = $mysqli->prepare($sql);
+$stmt->bind_param("s", $student_id);
+$stmt->execute();
+$result = $stmt->get_result();
+
+if ($result->num_rows > 0) {
+    $studentData = $result->fetch_assoc();
+} else {
+    echo "No student data found for the given ID.";
+    exit();
+}
+
+$stmt->close();
+$mysqli->close();
 ?>
 
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Late Entry Form</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="icon" href="../images/ico.png" type="image/x-icon">
+
     <style>
-        /* Reset some default styles */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        /* Remove underlines from links */
-        a {
-            text-decoration: none;
-        }
-
-        /* Menu styles */
-        .menu {
-            text-align: center;
-            margin-bottom: 20px;
-        }
-
-        .menu a {
-            display: inline-block;
-            padding: 10px 20px;
-            background-color: #000000;
-            color: #fff;
-            text-decoration: none;
-            margin-right: 10px;
-        }
-
-        .menu a:hover {
-            background-color: #e60505;
-        }
-
-        /* Body styles */
         body {
             margin: 0;
-            background-image: url("images/back4.jpg");
+            padding: 0;
+            background-image: url("../images/back4.jpg");
             background-size: cover;
+            background-position: center;
             background-repeat: no-repeat;
             font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            color: Black;
         }
 
-        /* Container styles */
-        .container {
-            max-width: 600px;
-            margin: 0 auto;
+        .card {
+            background-color: rgba(255, 255, 255, 0.6); 
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
             padding: 20px;
-            border-radius: 10px;
-            margin-top: 10px;
-            position: relative;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            width: 90%;
+            max-width: 500px;
+            color: black;
         }
 
-        /* Logo styles */
-        .logo {
-            max-width: 100%;
-            height: auto;
-            display: block;
-            margin: 0 auto;
+        .card input.form-control, 
+        .card select.form-select, 
+        .card textarea.form-control {
+            border: 2px solid red; 
         }
 
-        /* Date styles */
-        .date {
-            text-align: right;
-            color: #000000;
-        }
-
-        /* Heading styles */
-        h1 {
-            font-size: 30px;
-            color: #e10808;
-            margin-bottom: 20px;
-            text-align: center;
-        }
-
-        h4 {
-            font-size: 14px;
-            margin-top: 10px;
-            margin-bottom: 10px;
+        .card input.form-control:focus,
+        .card select.form-select:focus,
+        .card textarea.form-control:focus {
+            border-color: darkred;
+            outline: none;
         }
 
         h2 {
-            font-size: 30px;
-            color: #000;
-            margin-bottom: 10px;
-        }
-
-        /* Label styles */
-        label {
-            display: block;
-            font-weight: bold;
-            margin-bottom: 10px;
-        }
-
-        /* Input field styles */
-        input[type="text"],
-        input[type="number"],
-        input[type="date"],
-        input[type="time"],
-        select,
-        textarea {
-            width: 100%;
-            padding: 10px;
-            border: 2px solid #FF0000;
-            border-radius: 5px;
-            margin-bottom: 10px;
-            font-size: 16px;
-        }
-
-        select {
-            color: black;
-            background-color: white;
-        }
-
-        select:focus {
-            outline: none;
-            border-color: black;
-        }
-
-        /* Submit button styles */
-        input[type="submit"] {
-            background-color: #FF0000;
-            color: #fff;
-            padding: 10px 20px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            font-family: Arial, Helvetica, sans-serif;
-            font-size: 16px;
-            margin-top: 10px;
-            transition: background-color 0.3s ease, color 0.3s ease;
-        }
-
-        input[type="submit"]:hover {
-            background-color: #000000;
-        }
-
-        /* Student details styles */
-        .student-details {
-            padding: 20px;
-            border-radius: 5px;
-            margin-top: 20px;
-        }
-
-        .student-details h3 {
-            font-size: 20px;
-            color: #000000;
-            margin-bottom: 10px;
-        }
-
-        .student-details p {
-            font-size: 16px;
-            color: #000000;
-            margin-bottom: 5px;
-        }
-
-        .input-row {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
-            margin-bottom: 10px;
-        }
-
-        .input-column {
-            flex: 1;
-            margin-right: 10px;
-        }
-
-        .input-column:last-child {
-            margin-right: 0;
-        }
-
-        .options {
             text-align: center;
-            margin-top: 0;
-        }
-
-        .options a {
-            display: block;
-            color: white;
-            font-size: 1.0rem;
-            margin: 10px 0;
-            text-decoration: none;
-            display: inline-block;
-            padding: 10px 20px;
-            background-color: #000000;
-            border-radius: 10px;
-            margin-bottom: 5px;
-        }
-
-        .options a:hover {
-            background-color: #e10808;
-            color: #FFFFFF;
-        }
-
-        /* Adjustments for mobile responsiveness */
-        @media (max-width: 768px) {
-            .container {
-                padding: 10px;
-            }
-
-            h1, h2 {
-                font-size: 24px;
-                margin-bottom: 10px;
-            }
-
-            input[type="text"],
-            input[type="number"],
-            input[type="date"],
-            input[type="time"],
-            select,
-            textarea {
-                font-size: 14px;
-            }
-        }
-        @media (max-width: 768px) {
-            .container {
-                padding: 10px;
-            }
-
-            h1, h2 {
-                font-size: 24px;
-                margin-bottom: 10px;
-            }
-
-            input[type="text"],
-            input[type="number"],
-            input[type="date"],
-            input[type="time"],
-            select,
-            textarea {
-                font-size: 14px;
-            }
-        }
-
-        /* Use Flexbox to arrange input fields in two columns per row for all screen sizes */
-        .input-row {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
-            margin-bottom: 10px;
-        }
-
-        .input-column {
-            flex: 1;
-            margin-right: 10px;
-            width: calc(50% - 5px);
-        }
-
-        .input-column:last-child {
-            margin-right: 0;
+            color: red;
+            margin-bottom: 20px;
         }
     </style>
 </head>
 <body>
-<div class="container">
-    <img src="images/back7.png" alt="Logo" class="logo">
-    <h1>Welcome, <?php echo $studentData['student_name']; ?></h1>
 
-    <h2>Late Entry Form</h2>
+<div class="card">
+    <h2>Welcome, <?php echo $studentData['student_name']; ?></h2>
+
+    <h3 class="text-center mb-4">Fill the Late Entry Form</h3>
+    
     <form method="POST" action="late_outing_submission.php">
-        <input type="hidden" name="student_id" value="<?php echo $studentData['id']; ?>">
+        <input type="hidden" name="student_id" value="<?php echo $studentData['student_id']; ?>">
         <input type="hidden" name="student_name" value="<?php echo $studentData['student_name']; ?>">
-        <input type="hidden" name="student_email" value="<?php echo $studentData['email']; ?>">
+        <input type="hidden" name="student_email" value="<?php echo $studentData['student_email']; ?>">
         <input type="hidden" name="action" value="Inform Return">
-        <div class="input-row">
-            <div class="input-column">
-                <label for="id" class="input-label">ID:</label>
-                <input type="text" value="<?php echo $studentData['student_id']; ?>" name="id" required class="input-field">
-            </div>
-            <div class="input-column">
-                <label for="name" class="input-label">Name:</label>
-                <input type="text" value="<?php echo $studentData['student_name']; ?>" name="name" required class="input-field">
-            </div>
+
+        <div class="mb-3">
+            <label for="year" class="form-label">Select Year:</label>
+            <select name="year" class="form-select" required>
+                <option value="1st year">1st year</option>
+                <option value="2nd year">2nd year</option>
+                <option value="3rd year">3rd year</option>
+                <option value="4th year">4th year</option>
+                <option value="5th year">5th year</option>
+            </select>
         </div>
-        <div class="input-row">
-            <div class="input-column">
-                <label for="gender">Gender:</label>
-                <input type="text" value="<?php echo $studentData['gender']; ?>" name="gender" required class="input-field">
-            </div>
-            <div class="input-column">
-                <label for="school" class="input-label">School:</label>
-                <input type="text" value="<?php echo $studentData['department']; ?>" name="school" required class="input-field">
-            </div>
+
+        <div class="mb-3">
+            <label for="comments" class="form-label">Reason For Late:</label>
+            <textarea name="comments" class="form-control" rows="4" required></textarea>
         </div>
-        <div class="input-row">
-            <div class="input-column">
-                <label for="year" class="input-label">Select Year:</label>
-                <select name="year" required class="input-field">
-                    <option value="1st year">1st year</option>
-                    <option value="2nd year">2nd year</option>
-                    <option value="3rd year">3rd year</option>
-                    <option value="4th year">4th year</option>
-                    <option value="5th year">5th year</option>
-                </select>
-            </div>
-            <div class="input-column">
-                <label for="mobile" class="input-label">Mobile:</label>
-                <input type="number" value="<?php echo $studentData['phone']; ?>" name="mobile" required class="input-field">
-            </div>
+
+        <input type="hidden" name="submission_time" id="submission_time" value="">
+
+        <div class="d-grid">
+            <input type="submit" class="btn btn-danger" value="Inform Return">
         </div>
-        <div class="input-row">
-            <div class="input-column">
-                <label for="comments">Reason For late:</label>
-                <textarea name="comments" rows="4" required class="input-field" style="height: auto;"></textarea>
-            </div>
-        </div>
-        <input type="hidden" name="submission_time" id="submission_time" value="submission_time">
-        <input type="submit" value="Inform Return">
-        <h4>Note: Fill out this form once you enter the campus after Outing Times.</h4>
+
+        <h5 class="text-center mt-3">Note: Fill out this form if you are entering the campus after Daily Outing Times.</h5>
     </form>
-    <div class="options">
-        <a href="student_dashboard.php">Back</a>
-    </div>
 </div>
+
 <script>
     document.addEventListener("DOMContentLoaded", function () {
         document.querySelector("form").addEventListener("submit", function () {
@@ -417,6 +172,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         });
     });
 </script>
-<?php include 'footer.php'; ?>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

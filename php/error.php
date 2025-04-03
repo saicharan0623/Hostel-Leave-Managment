@@ -4,16 +4,16 @@
 <meta charset="utf-8">
 <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" type="text/css" href="style.css">
-<link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
-<link rel="stylesheet" type="text/css" href="/css/styles.css">
+<link rel="stylesheet" type="text/css" href="../css/style.css">
+<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="../css/styles.css">
 <title>Leave Application Not Allowed</title>
 <style>
   /* CSS styles here */
   body {
     margin: 0;
     padding: 0;
-    background-image: url("images/back4.jpg");
+    background-image: url("../images/back4.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -64,7 +64,7 @@
     color: #fff;
   }
 </style>
-<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="../css/style.css">
 </head>
 <body>
   <div class="content">
@@ -73,7 +73,7 @@
       <h2>You are not allowed to use the application.</h2>
     </div>
     <div class="container" id="apply-leave" style="margin-top: -50px">
-      <form method="POST" action="/leave/public">
+      <form method="POST" action="../public">
         <input type="submit" value="Back">
       </form>
     </div>

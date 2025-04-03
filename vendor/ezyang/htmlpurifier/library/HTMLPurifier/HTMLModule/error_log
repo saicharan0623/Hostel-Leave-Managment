@@ -1,0 +1,572 @@
+[25-Sep-2024 18:03:10 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Tables.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Tables.php on line 6
+[25-Sep-2024 18:03:10 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/List.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/List.php on line 6
+[25-Sep-2024 18:03:10 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/StyleAttribute.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/StyleAttribute.php on line 7
+[25-Sep-2024 18:03:10 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Target.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Target.php on line 6
+[25-Sep-2024 18:03:10 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/NonXMLCommonAttributes.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/NonXMLCommonAttributes.php on line 3
+[25-Sep-2024 18:03:10 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Forms.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Forms.php on line 6
+[25-Sep-2024 18:03:10 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Presentation.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Presentation.php on line 13
+[25-Sep-2024 18:03:11 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/XMLCommonAttributes.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/XMLCommonAttributes.php on line 3
+[25-Sep-2024 18:03:11 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/SafeEmbed.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/SafeEmbed.php on line 6
+[25-Sep-2024 18:03:11 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Hypertext.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Hypertext.php on line 6
+[25-Sep-2024 18:03:11 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/TargetNoreferrer.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/TargetNoreferrer.php on line 7
+[25-Sep-2024 18:03:11 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/SafeScripting.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/SafeScripting.php on line 7
+[25-Sep-2024 18:03:12 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Scripting.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Scripting.php on line 16
+[25-Sep-2024 18:03:12 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/SafeObject.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/SafeObject.php on line 9
+[25-Sep-2024 18:03:12 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Image.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Image.php on line 8
+[25-Sep-2024 18:03:13 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Text.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Text.php on line 15
+[25-Sep-2024 18:03:13 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Legacy.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Legacy.php on line 19
+[25-Sep-2024 18:03:13 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Tidy.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Tidy.php on line 8
+[25-Sep-2024 18:03:13 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/TargetBlank.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/TargetBlank.php on line 7
+[25-Sep-2024 18:03:14 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Iframe.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Iframe.php on line 10
+[25-Sep-2024 18:03:14 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/TargetNoopener.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/TargetNoopener.php on line 7
+[25-Sep-2024 18:03:14 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Edit.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Edit.php on line 7
+[25-Sep-2024 18:03:14 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Nofollow.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Nofollow.php on line 7
+[25-Sep-2024 18:03:14 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/CommonAttributes.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/CommonAttributes.php on line 3
+[25-Sep-2024 18:03:14 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Object.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Object.php on line 8
+[25-Sep-2024 18:03:15 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Ruby.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Ruby.php on line 7
+[25-Sep-2024 18:03:15 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Bdo.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Bdo.php on line 7
+[25-Sep-2024 18:03:15 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Proprietary.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Proprietary.php on line 7
+[25-Sep-2024 18:03:18 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Presentation.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Presentation.php on line 13
+[25-Sep-2024 18:03:19 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/TargetNoreferrer.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/TargetNoreferrer.php on line 7
+[25-Sep-2024 18:03:19 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Scripting.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Scripting.php on line 16
+[25-Sep-2024 18:03:19 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Target.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Target.php on line 6
+[25-Sep-2024 18:03:19 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Forms.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Forms.php on line 6
+[25-Sep-2024 18:03:19 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Tables.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Tables.php on line 6
+[25-Sep-2024 18:03:19 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Text.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Text.php on line 15
+[25-Sep-2024 18:03:20 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Name.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Name.php on line 3
+[25-Sep-2024 18:03:20 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/NonXMLCommonAttributes.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/NonXMLCommonAttributes.php on line 3
+[25-Sep-2024 18:03:20 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Image.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Image.php on line 8
+[25-Sep-2024 18:03:20 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/SafeEmbed.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/SafeEmbed.php on line 6
+[25-Sep-2024 18:03:20 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/TargetBlank.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/TargetBlank.php on line 7
+[25-Sep-2024 18:03:20 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/StyleAttribute.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/StyleAttribute.php on line 7
+[25-Sep-2024 18:03:20 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/SafeObject.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/SafeObject.php on line 9
+[25-Sep-2024 18:03:21 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Nofollow.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Nofollow.php on line 7
+[25-Sep-2024 18:03:21 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Legacy.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Legacy.php on line 19
+[25-Sep-2024 18:03:21 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Iframe.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Iframe.php on line 10
+[25-Sep-2024 18:03:22 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Ruby.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Ruby.php on line 7
+[25-Sep-2024 18:03:22 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Tidy.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Tidy.php on line 8
+[25-Sep-2024 18:03:22 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/CommonAttributes.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/CommonAttributes.php on line 3
+[25-Sep-2024 18:03:22 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Proprietary.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Proprietary.php on line 7
+[25-Sep-2024 18:03:22 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Edit.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Edit.php on line 7
+[25-Sep-2024 18:03:22 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/TargetNoopener.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/TargetNoopener.php on line 7
+[25-Sep-2024 18:03:23 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Object.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Object.php on line 8
+[25-Sep-2024 18:03:24 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/List.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/List.php on line 6
+[25-Sep-2024 18:03:25 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Bdo.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Bdo.php on line 7
+[25-Sep-2024 18:03:25 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/XMLCommonAttributes.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/XMLCommonAttributes.php on line 3
+[25-Sep-2024 18:03:25 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Presentation.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Presentation.php on line 13
+[25-Sep-2024 18:03:28 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/TargetNoreferrer.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/TargetNoreferrer.php on line 7
+[25-Sep-2024 18:03:29 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/SafeScripting.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/SafeScripting.php on line 7
+[25-Sep-2024 18:03:31 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Tables.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Tables.php on line 6
+[25-Sep-2024 18:03:34 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/TargetBlank.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/TargetBlank.php on line 7
+[25-Sep-2024 18:03:34 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Text.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Text.php on line 15
+[25-Sep-2024 18:03:35 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Target.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Target.php on line 6
+[25-Sep-2024 18:03:36 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/NonXMLCommonAttributes.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/NonXMLCommonAttributes.php on line 3
+[25-Sep-2024 18:03:36 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/SafeEmbed.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/SafeEmbed.php on line 6
+[25-Sep-2024 18:03:39 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Hypertext.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Hypertext.php on line 6
+[25-Sep-2024 18:03:40 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Forms.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Forms.php on line 6
+[25-Sep-2024 18:03:41 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Name.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Name.php on line 3
+[25-Sep-2024 18:03:42 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Legacy.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Legacy.php on line 19
+[25-Sep-2024 18:03:43 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Nofollow.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Nofollow.php on line 7
+[25-Sep-2024 18:03:43 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Iframe.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Iframe.php on line 10
+[25-Sep-2024 18:03:47 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/StyleAttribute.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/StyleAttribute.php on line 7
+[25-Sep-2024 18:03:48 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Image.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Image.php on line 8
+[25-Sep-2024 18:03:48 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Proprietary.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Proprietary.php on line 7
+[25-Sep-2024 18:03:50 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Scripting.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Scripting.php on line 16
+[25-Sep-2024 18:03:50 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Tidy.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Tidy.php on line 8
+[25-Sep-2024 18:03:50 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Ruby.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Ruby.php on line 7
+[25-Sep-2024 18:03:52 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Presentation.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Presentation.php on line 13
+[25-Sep-2024 18:03:54 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Object.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Object.php on line 8
+[25-Sep-2024 18:03:58 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/TargetBlank.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/TargetBlank.php on line 7
+[25-Sep-2024 18:03:59 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/SafeEmbed.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/SafeEmbed.php on line 6
+[25-Sep-2024 18:04:01 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/List.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/List.php on line 6
+[25-Sep-2024 18:04:02 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/TargetNoopener.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/TargetNoopener.php on line 7
+[25-Sep-2024 18:04:04 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/CommonAttributes.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/CommonAttributes.php on line 3
+[25-Sep-2024 18:04:06 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Edit.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Edit.php on line 7
+[25-Sep-2024 18:04:08 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/SafeObject.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/SafeObject.php on line 9
+[25-Sep-2024 18:04:10 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Text.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Text.php on line 15
+[25-Sep-2024 18:04:14 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Name.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Name.php on line 3
+[25-Sep-2024 18:04:16 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/NonXMLCommonAttributes.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/NonXMLCommonAttributes.php on line 3
+[25-Sep-2024 18:04:17 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/TargetNoreferrer.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/TargetNoreferrer.php on line 7
+[25-Sep-2024 18:04:21 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Forms.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Forms.php on line 6
+[25-Sep-2024 18:04:21 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Bdo.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Bdo.php on line 7
+[25-Sep-2024 18:04:24 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Scripting.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Scripting.php on line 16
+[25-Sep-2024 18:04:24 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Nofollow.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Nofollow.php on line 7
+[25-Sep-2024 18:04:24 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Legacy.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Legacy.php on line 19
+[25-Sep-2024 18:04:25 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Hypertext.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Hypertext.php on line 6
+[25-Sep-2024 18:04:25 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Tidy.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Tidy.php on line 8
+[25-Sep-2024 18:04:28 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Iframe.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Iframe.php on line 10
+[25-Sep-2024 18:04:28 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/SafeEmbed.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/SafeEmbed.php on line 6
+[25-Sep-2024 18:04:28 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/TargetBlank.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/TargetBlank.php on line 7
+[25-Sep-2024 18:04:29 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Target.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Target.php on line 6
+[25-Sep-2024 18:04:30 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/XMLCommonAttributes.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/XMLCommonAttributes.php on line 3
+[25-Sep-2024 18:04:31 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/SafeScripting.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/SafeScripting.php on line 7
+[25-Sep-2024 18:04:32 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Object.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Object.php on line 8
+[25-Sep-2024 18:04:33 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Tables.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Tables.php on line 6
+[25-Sep-2024 18:04:35 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Presentation.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Presentation.php on line 13
+[25-Sep-2024 18:04:35 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Proprietary.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Proprietary.php on line 7
+[25-Sep-2024 18:04:37 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/StyleAttribute.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/StyleAttribute.php on line 7
+[25-Sep-2024 18:04:40 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Ruby.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Ruby.php on line 7
+[25-Sep-2024 18:04:44 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Image.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Image.php on line 8
+[25-Sep-2024 18:04:44 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/List.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/List.php on line 6
+[25-Sep-2024 18:04:46 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Name.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Name.php on line 3
+[25-Sep-2024 18:04:52 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/TargetNoopener.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/TargetNoopener.php on line 7
+[25-Sep-2024 18:04:52 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Scripting.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Scripting.php on line 16
+[25-Sep-2024 18:04:58 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Text.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Text.php on line 15
+[25-Sep-2024 18:04:59 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Edit.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Edit.php on line 7
+[25-Sep-2024 18:05:03 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/XMLCommonAttributes.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/XMLCommonAttributes.php on line 3
+[25-Sep-2024 18:05:05 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/NonXMLCommonAttributes.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/NonXMLCommonAttributes.php on line 3
+[25-Sep-2024 18:05:09 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Tidy.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Tidy.php on line 8
+[25-Sep-2024 18:05:12 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Nofollow.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Nofollow.php on line 7
+[25-Sep-2024 18:05:12 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Image.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Image.php on line 8
+[25-Sep-2024 18:05:12 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/SafeObject.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/SafeObject.php on line 9
+[25-Sep-2024 18:05:12 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Bdo.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Bdo.php on line 7
+[25-Sep-2024 18:05:12 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Legacy.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Legacy.php on line 19
+[25-Sep-2024 18:05:14 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Hypertext.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Hypertext.php on line 6
+[25-Sep-2024 18:05:14 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/TargetNoreferrer.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/TargetNoreferrer.php on line 7
+[25-Sep-2024 18:05:15 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/SafeScripting.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/SafeScripting.php on line 7
+[25-Sep-2024 18:05:16 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Object.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Object.php on line 8
+[25-Sep-2024 18:05:16 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/CommonAttributes.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/CommonAttributes.php on line 3
+[25-Sep-2024 18:05:16 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Edit.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Edit.php on line 7
+[25-Sep-2024 18:05:17 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Forms.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Forms.php on line 6
+[25-Sep-2024 18:05:17 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Target.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Target.php on line 6
+[25-Sep-2024 18:05:18 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Iframe.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Iframe.php on line 10
+[25-Sep-2024 18:05:19 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Proprietary.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Proprietary.php on line 7
+[25-Sep-2024 18:05:20 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/List.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/List.php on line 6
+[25-Sep-2024 18:05:25 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/XMLCommonAttributes.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/XMLCommonAttributes.php on line 3
+[25-Sep-2024 18:05:34 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Ruby.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Ruby.php on line 7
+[25-Sep-2024 18:05:35 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Tables.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Tables.php on line 6
+[25-Sep-2024 18:05:36 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/StyleAttribute.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/StyleAttribute.php on line 7
+[25-Sep-2024 18:05:39 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/SafeObject.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/SafeObject.php on line 9
+[25-Sep-2024 18:05:44 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/SafeScripting.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/SafeScripting.php on line 7
+[25-Sep-2024 18:05:52 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Bdo.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Bdo.php on line 7
+[25-Sep-2024 18:05:52 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/TargetNoopener.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/TargetNoopener.php on line 7
+[25-Sep-2024 18:06:00 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_HTMLModule" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/CommonAttributes.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/CommonAttributes.php on line 3

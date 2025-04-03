@@ -1,10 +1,6 @@
 <?php
 session_start();
 
-/* if (isset($_GET['token'])) {
-    $email = $_GET["email"];
-} */
-
 $newPassword = '';
 if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['new_password'])) {
 $newPassword = $_POST["new_password"];
@@ -15,44 +11,29 @@ if (isset($_GET['token'])) {
     $resetToken = $_GET['token'];
     $email = $_GET["email"];
  
+    include 'database_config.php';
 
-    // Database connection
-    $servername = "localhost";
-    $username = "root";
-    $password = "";
-    $dbname = "college_db";
-    $conn = new mysqli($servername, $username, $password, $dbname);
-
-    if ($conn->connect_error) {
-        die("Connection failed: " . $conn->connect_error);
-    }
-
-    // Check if the reset token exists and is not expired
     $currentDateTime = date('Y-m-d H:i:s');
     $sql = "SELECT * FROM password_reset WHERE reset_token = '$resetToken' AND token_expires > '$currentDateTime' AND email = '$email'";    
 
-    $result = $conn->query($sql);
+    $result = $mysqli->query($sql);
 
     if ($result->num_rows > 0) {
         // Valid reset token, allow user to reset password
         $resetValid = true;
-        //------------------------------------------------------------------------
-        //CHECK IF THE ABOVE EMAIL IS AVAILABLE IN THE password_reset table and update the new password with Argon2 hashing
-        //if above email is not available, redirect to student login page
 
         $hashedPassword = password_hash($newPassword, PASSWORD_ARGON2I);
 
         $sqlUpd = "UPDATE password_reset SET password = '$hashedPassword' WHERE email = '$email'";    
 
-        $resultUpd = $conn->query($sqlUpd);
+        $resultUpd = $mysqli->query($sqlUpd);
         //------------------------------------------------------------------------
     } else {
         // Invalid or expired reset token
         $resetValid = false;
     }
 
-    // Close the database connection
-    $conn->close();
+    $mysqli->close();
 
    /*  header("Location: admin_login.php");
     exit();  */
@@ -78,6 +59,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['new_password']) && $re
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <link rel="icon" href="../images/ico.png" type="image/x-icon">
     <title>Password Reset</title>
     <style>
         body {

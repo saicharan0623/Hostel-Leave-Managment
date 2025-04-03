@@ -4,6 +4,8 @@
   <meta charset="utf-8">
   <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="icon" href="../images/ico.png" type="image/x-icon">
+
   <title>Leave Application Success</title>
   <style>
     /* CSS styles here */
@@ -11,7 +13,7 @@
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
-      background-image: url('../public/images/back4.jpg');
+      background-image: url('../images/back4.jpg');
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
@@ -32,6 +34,7 @@
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
       position: relative; /* Ensure container does not overlap the footer */
       z-index: 1; /* Ensure container is above the footer */
+      top:-20px;
     }
 
     h1 {
@@ -82,16 +85,16 @@
 </head>
 <body>
   <div class="container">
-    <img src="images/back7.png" alt="Logo" class="logo">
+    <img src="../images/back7.png" alt="Logo" class="logo">
     <h1>Late Entry Form Application Submitted Successfully</h1>
     <p>We will inform your late arrival and notify the outcome to your parents.</p>
     <p>Thank you for applying!</p>
     <!-- Add an audio element for the beep sound -->
     <audio id="beepAudio">
-      <source src="../public/music/beep.wav" type="audio/wav">
+      <source src="../music/beep.wav" type="audio/wav">
       Your browser does not support the audio element.
     </audio>
-    <form method="POST" action="../php/student_dashboard.php">
+    <form method="POST" action="latepass.php">
       <input type="submit" value="Back">
     </form>
   </div>

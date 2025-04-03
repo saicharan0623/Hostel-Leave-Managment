@@ -4,80 +4,143 @@ session_start();
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
-// Initialize variables
 $email = '';
 $message = '';
 
-// Handle form submission
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email = $_POST["email"];
 
-    // Perform email validation
     if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
-        // Generate a reset token (for demonstration purposes)
         $resetToken = md5(uniqid());
 
-        // Store the reset token in the session for later use (in a real scenario, you'd store it in a database)
         $_SESSION['reset_token'] = $resetToken;
 
-        $servername = "localhost";
-        $username = "root";
-        $password = "";
-        $dbname = "college_db";
+        include 'database_config.php';
 
-        // Create a new MySQLi connection
-        $conn = new mysqli($servername, $username, $password, $dbname);
-
-        // Check for connection errors
-        if ($conn->connect_error) {
-            die("Connection failed: " . $conn->connect_error);
-        }
-
-        // Set the character set and collation for the connection
-        $conn->set_charset('utf8mb4');
-
-        //CHECK IF THE ABOVE EMAIL IS AVAILABLE IN THE password_reset table
         $currentDateTime = date('Y-m-d H:i:s');
-        $sql = "SELECT * FROM password_reset WHERE  email = '$email'";    
+        $sql = "SELECT * FROM admins WHERE  email = '$email'";    
     
-        $result = $conn->query($sql);
+        $result = $mysqli->query($sql);
     
         if ($result->num_rows > 0) {
-            //EMAIL IS AVAILABLE IN password_reset table update token and send reset password link via email
         
 
-        // Store reset token and expiration time in the database
-        $expiryTime = date('Y-m-d H:i:s', strtotime('+1 hour')); // Adjust as needed
-        ////$sql = "INSERT INTO password_reset (email, reset_token, token_expires) VALUES ('$email', '$resetToken', '$expiryTime')";
-        $sql = "UPDATE password_reset SET reset_token= '$resetToken', token_expires='$expiryTime' WHERE email = '$email'";
+        $expiryTime = date('Y-m-d H:i:s', strtotime('+1 hour'));
+        $sql = "UPDATE admins SET reset_token= '$resetToken', reset_token_expires='$expiryTime' WHERE email = '$email'";
 
-        if ($conn->query($sql) === TRUE) {
+        if ($mysqli->query($sql) === TRUE) {
             // Send email
-            require '../vendor/autoload.php'; // Include the Composer autoloader
+            require '../vendor/autoload.php';
 
             $mail = new PHPMailer(true);
 
             try {
-                // Configure mailer settings
                 $mail->isSMTP();
-                //$mail->Host = 'smtp.example.com';
-                $mail->Host = 'smtp.gmail.com';
+                $mail->Host = 'mail.nmimshyd.in';
                 $mail->SMTPAuth = true;
-                $mail->Username = 'saicharanmalde@gmail.com';
-                $mail->Password = 'lhthjcnefpkiedeo';
-                $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
-                $mail->Port = 587; //SMTP port
+                $mail->Username = 'hostelrector@nmimshyd.in';
+                $mail->Password = 'Nmims@1234';
+                $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMPTS;
+                $mail->Port = 465;
 
-                // Set sender and recipient
-                $mail->setFrom('saicharanmalde@gmai.com', 'Your Name');
+                $mail->setFrom('rectorhostel@nmimshyd.in', 'Your Name');
                 $mail->addAddress($email);
 
                 // Set email content
                 $mail->isHTML(true);
                 $mail->Subject = 'Password Reset';
-                //$mail->Body ="Click the link to reset your password: http://localhost/Leave/Leave/php/reset.php?token=$resetToken";
-                //$mail->Body ="Click the link to reset your password: http://localhost/Leave/php/student_reset_password.php?token=$resetToken";
-                $mail->Body ="Click the link to reset your password: http://localhost/Leave/php/admin_reset_password.php?token=$resetToken&email=$email";
+                $mail->Body =$mail->Body = '
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Reset</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 100%;
+            max-width: 600px;
+            margin: auto;
+            background: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            background-color: #007bff; /* Vibrant blue color */
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+            border-radius: 8px 8px 0 0;
+        }
+        .content {
+            margin: 20px 0;
+            font-size: 16px;
+            line-height: 1.5;
+        }
+        .footer {
+            text-align: center;
+            font-size: 12px;
+            color: #666;
+            margin-top: 20px;
+        }
+        a.reset-button {
+            display: inline-block;
+            background-color: #007bff; /* Vibrant blue color */
+            color: white;
+            padding: 10px 15px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+            font-weight: bold;
+        }
+        a.reset-button:hover {
+            background-color: #0056b3; /* Darker shade on hover */
+        }
+
+        /* Responsive Styles */
+        @media (max-width: 600px) {
+            .container {
+                width: 90%;
+                padding: 15px;
+            }
+            .header h2 {
+                font-size: 20px;
+            }
+            .content {
+                font-size: 14px;
+            }
+            a.reset-button {
+                width: 100%;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>Password Reset Request</h2>
+        </div>
+        <div class="content">
+            <p>Dear Admin,</p>
+            <p>We received a request to reset your admin password. You can reset your password by clicking the button below:</p>
+            <a class="reset-button" href="https://nmimshyd.in/Leave/php/admin_reset_password.php?token=' . $resetToken . '&email=' . $email . '">Reset Password</a>
+            <p>If you did not request a password reset, please ignore this email.</p>
+            <p>Thank you!</p>
+        </div>
+        <div class="footer">
+            <p>Best Regards,<br>The NMIMS Hyderabad Team</p>
+        </div>
+    </div>
+</body>
+</html>';
 
                 $mail->send();
                 $message = "A password reset link has been sent to your email.";
@@ -86,17 +149,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             }
 
         } else {
-            $message = "Error: " . $sql . "<br>" . $conn->error;
+            $message = "Error: " . $sql . "<br>" . $mysqli->error;
         }
     }else{
-        //EMAIL IS NOT AVAILABLE IN password_reset table
         header("Location: student_login.php");
         exit(); 
     }
-        
 
-        // Close the database connection
-        $conn->close();
+        $mysqli->close();
     } else {
         $message = "Invalid email format.";
     }
@@ -104,161 +164,53 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 ?>
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Forgot Password</title>
-<style>
-        @media (min-width: 1201px) {
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forgot Password</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+       <link rel="icon" href="../images/ico.png" type="image/x-icon">
+
+    <style>
+        body {
+            background-image: url("../images/back4.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
         .container {
-          font-size: 24px;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
-        .body {
-          font-size: 26px;
-          font-weight: bold;
-        }
-      }
-
-      /* Font size for screens between 992px and 1200px */
-      @media (min-width: 992px) and (max-width: 1200px) {
-        .container {
-          font-size: 22px;
-        }
-        .body {
-          font-size: 24px;
-          font-weight: bold;
-        }
-      }
-
-      /* Font size for screens between 768px and 991px */
-      @media (min-width: 768px) and (max-width: 991px) {
-        .conatiner {
-          font-size: 20px;
-        }
-        .body {
-          font-size: 22px;
-          font-weight: bold;
-        }
-      }
-
-      /* Font size for screens narrower than 768px */
-      @media (max-width: 767px) {
-        .container {
-          font-size: 18px;
-        }
-        .body {
-          font-size: 20px;
-          font-weight: bold;
-        }
-      }
-body {
-    margin: 0;
-    padding: 0;
-    background-image: url("images/back4.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    font-family: Arial, sans-serif;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-}
-
-.container {
-    background-color: transparent;
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px black;
-    animation: fadeIn 1s ease-in-out, moveUp 0.5s ease-in-out;
-    max-width: 800px;
-    width: 100%;
-    margin: 15px auto;
-    margin-top: 3cm;
-    margin-bottom: 45px; /* Adjusted margin to push the footer down */
-}
-
-.logo {
-    position: absolute;
-    top: 110px;
-    left: calc(50% - 125px); /* Center the logo */
-    width: 250px;
-}
-
-h1 {
-    font-size: 24px;
-    margin-bottom: 20px;
-}
-
-p {
-    font-size: 16px;
-    margin-bottom: 20px;
-}
-
-form {
-    margin-top: 20px;
-}
-
-label {
-    display: block;
-    font-size: 16px;
-    margin-bottom: 10px;
-}
-
-input[type="email"] {
-    padding: 10px;
-    font-size: 16px;
-    width: 90%;
-    border: 2px solid red;
-    border-radius: 5px;
-    margin-bottom: 20px;
-    text-align: center;
-}
-
-input[type="submit"] {
-    padding: 10px 20px;
-    background-color: #000;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-input[type="submit"]:hover {
-    background-color: #ff0000;
-}
-
-.footer {
-    background: rgb(99, 102, 106);
-    text-align: center;
-    padding: 10px 0;
-    color: #fff;
-    position: absolute;
-    bottom: 0; /* Position the footer at the bottom */
-    width: 100%; /* Ensure full width */
-}
-</style>
+    </style>
 </head>
 <body>
-<img class="logo" src="images/back7.png" alt="Logo">
-<div class="container">
-    <h1>Admin Forgot Password</h1>
-    <?php if (!empty($message)) { ?>
-        <p><?php echo $message; ?></p>
-    <?php } else { ?>
-        <form action="admin_forgot.php" method="POST">
-            <label for="email">Enter your email:</label>
-            <input type="email" id="email" name="email" required>
-            <input type="submit" value="Reset Password">
-        </form>
-    <?php } ?>
-</div>
-<footer class="footer">
-    <div class="container-fluid">
-        &copy; MALDE SAICHARAN All rights reserved.
+    <div class="container">
+        <div class="card" style="width: 100%; max-width: 400px;">
+            <img class="card-img-top" src="../images/back7.png" alt="Logo">
+            <div class="card-body">
+                <h5 class="card-title text-center">Admin Forgot Password</h5>
+                <?php if (!empty($message)) { ?>
+                    <div class="alert alert-info" role="alert">
+                        <?php echo $message; ?>
+                    </div>
+                <?php } else { ?>
+                    <form action="admin_forgot.php" method="POST">
+                        <div class="form-group">
+                            <label for="email">Enter your email:</label>
+                            <input type="email" id="email" name="email" class="form-control" required>
+                        </div>
+                        <button type="submit" class="btn btn-danger btn-block">Reset Password</button>
+                    </form>
+                <?php } ?>
+            </div>
+        </div>
     </div>
-</footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>

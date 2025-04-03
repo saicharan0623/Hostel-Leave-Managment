@@ -1,0 +1,870 @@
+
+@media screen and (max-width: 320px) {
+ .menu {
+   background-color: #000000;
+   text-align: center;
+   margin-bottom: 20px;
+   margin-right: 5px;
+   border-right: 1px solid #fff;
+   padding: 5px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
+
+ .menu a {
+   display: inline-block;
+   color: #fff;
+   text-decoration: none;
+   margin-right: 10px;
+   text-align: center;
+   font-size: 12px;
+ }
+
+ .menu:hover {
+   background-color: #e60505;
+ }
+ /* =============== SEARCH REALTED ================== */
+ /* Style for the search input */
+ .search-container input[type="text"] {
+   flex-grow: 1;
+   padding: 5px;/* THIS */
+   max-width: 100%;
+   border: none;
+   outline: none;
+   transition: background-color 0.3s ease-in-out;
+ }
+
+ /* Hover effect for the search input */
+ .search-container input[type="text"]:hover {
+   background-color: #f9f9f9;
+   /* Change the background color on hover */
+ }
+/* Your CSS styles for mobile devices here */
+.search-container button[type="submit"] {
+   background-color: #000000;
+   color: #fff;
+   border: none;
+   cursor: pointer;
+   padding: 8px 10px;
+   transition: background-color 0.3s ease-in-out;
+ }
+
+ /* Hover effect for the search button */
+ .search-container button[type="submit"]:hover {
+   background-color: #333333;
+   /* Change the background color on hover */
+ }
+
+ /* Style for the search icon */
+ .search-container button[type="submit"] i {
+   font-size: 10px;
+   color: red;
+ }
+.search-text {
+   padding: 3px;/* THIS */
+   color: #333;
+   /* Text color */
+   font-weight: bold;      
+ }
+.search-container {
+   display: flex;
+   align-items: center;
+   margin-bottom: 20px;
+   background-color: #fff;
+   border: 2px solid #000;
+   border-radius: 5px;      
+   overflow: hidden;
+   max-width: 100%;/* THIS */
+   font-size: 11px;/* THIS */
+   transition: border-color 0.3s ease-in-out;
+   position: relative;
+   /* margin-left: 50px; */
+ }
+ /* =============== SEARCH REALTED ================== */
+span{
+ font-size: 13px;
+}
+h1 {
+     font-size: 22px;
+   }
+}
+ @media screen and (min-width: 320px) and (max-width: 480px) {
+   
+   .menu {
+   background-color: #000000;
+   text-align: center;
+   margin-bottom: 20px;
+   margin-right: 5px;
+   border-right: 1px solid #fff;
+   padding: 5px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
+
+ .menu a {
+   display: inline-block;
+   color: #fff;
+   text-decoration: none;
+   margin-right: 10px;
+   text-align: center;
+   font-size: 15px;
+ }
+
+ .menu:hover {
+   background-color: #e60505;
+ }
+   /* =============== SEARCH REALTED ================== */
+ /* Style for the search input */
+ .search-container input[type="text"] {
+   flex-grow: 1;
+   padding: 5px;/* THIS */
+   max-width: 100%;
+   border: none;
+   outline: none;
+   transition: background-color 0.3s ease-in-out;
+ }
+
+ /* Hover effect for the search input */
+ .search-container input[type="text"]:hover {
+   background-color: #f9f9f9;
+   /* Change the background color on hover */
+ }
+/* Your CSS styles for mobile devices here */
+.search-container button[type="submit"] {
+   background-color: #000000;
+   color: #fff;
+   border: none;
+   cursor: pointer;
+   padding: 8px 10px;
+   transition: background-color 0.3s ease-in-out;
+ }
+
+ /* Hover effect for the search button */
+ .search-container button[type="submit"]:hover {
+   background-color: #333333;
+   /* Change the background color on hover */
+ }
+
+ /* Style for the search icon */
+ .search-container button[type="submit"] i {
+   font-size: 10px;
+   color: red;
+ }
+.search-text {
+   padding: 3px;/* THIS */
+   color: #333;
+   /* Text color */
+   font-weight: bold;      
+ }
+.search-container {
+   display: flex;
+   align-items: center;
+   margin-bottom: 20px;
+   background-color: #fff;
+   border: 2px solid #000;
+   border-radius: 5px;      
+   overflow: hidden;
+   max-width: 100%;/* THIS */
+   font-size: 11px;/* THIS */
+   transition: border-color 0.3s ease-in-out;
+   position: relative;
+   /* margin-left: 50px; */
+ }
+ /* =============== SEARCH REALTED ================== */
+/* Your CSS styles for mobile devices here */
+span{
+ font-size: 13px;
+}
+h1{
+ font-size: 25px!important;
+   }
+}
+
+/* iPads and Tablets (481px - 768px) */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+
+.menu {
+   background-color: #000000;
+   text-align: center;
+   margin-bottom: 20px;
+   margin-right: 5px;
+   border-right: 1px solid #fff;
+   padding: 5px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border-radius: 10px;
+   border-radius: 10px;
+   text-align: center;
+ }
+
+ .menu a {
+   display: inline-block;
+   color: #fff;
+   text-decoration: none;
+   margin-right: 10px;
+   text-align: center;
+   font-size: 15px;
+ }
+
+ .menu:hover {
+   background-color: #e60505;
+ }
+/* =============== SEARCH REALTED ================== */
+ /* Style for the search input */
+ .search-container input[type="text"] {
+   flex-grow: 1;
+   padding: 8px;/* THIS */
+   max-width: 100%;
+   border: none;
+   outline: none;
+   transition: background-color 0.3s ease-in-out;
+ }
+
+ /* Hover effect for the search input */
+ .search-container input[type="text"]:hover {
+   background-color: #f9f9f9;
+   /* Change the background color on hover */
+ }
+/* Your CSS styles for mobile devices here */
+.search-container button[type="submit"] {
+   background-color: #000000;
+   color: #fff;
+   border: none;
+   cursor: pointer;
+   padding: 8px 10px;
+   transition: background-color 0.3s ease-in-out;
+ }
+
+ /* Hover effect for the search button */
+ .search-container button[type="submit"]:hover {
+   background-color: #333333;
+   /* Change the background color on hover */
+ }
+
+ /* Style for the search icon */
+ .search-container button[type="submit"] i {
+   font-size: 15px;
+   color: red;
+ }
+.search-text {
+   padding: 8px;/* THIS */
+   color: #333;
+   /* Text color */
+   font-weight: bold;      
+ }
+.search-container {
+   display: flex;
+   align-items: center;
+   margin-bottom: 20px;
+   background-color: #fff;
+   border: 2px solid #000;
+   border-radius: 5px;      
+   overflow: hidden;
+   max-width: 65%;/* THIS */
+   font-size: 11px;/* THIS */
+   transition: border-color 0.3s ease-in-out;
+   position: relative;
+   /* margin-left: 50px; */
+ }
+ /* =============== SEARCH REALTED ================== */
+/* Your CSS styles for iPads and Tablets here */
+h1{
+ font-size: 27px;
+   }
+}
+
+/* Small screens and laptops (769px - 1024px) */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+.menu {
+   background-color: #000000;
+   text-align: center;
+   margin-bottom: 20px;
+   margin-right: 5px;
+   border-right: 1px solid #fff;
+   padding: 5px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border-radius: 10px;
+
+ }
+
+ .menu a {
+   display: inline-block;
+   color: #fff;
+   text-decoration: none;
+   margin-right: 10px;
+   text-align: center;
+   font-size: 15px;
+ }
+
+ .menu:hover {
+   background-color: #e60505;
+ }
+/* =============== SEARCH REALTED ================== */
+ /* Style for the search input */
+ .search-container input[type="text"] {
+   flex-grow: 1;
+   padding: 8px;/* THIS */
+   max-width: 100%;
+   border: none;
+   outline: none;
+   transition: background-color 0.3s ease-in-out;
+ }
+
+ /* Hover effect for the search input */
+ .search-container input[type="text"]:hover {
+   background-color: #f9f9f9;
+   /* Change the background color on hover */
+ }
+/* Your CSS styles for mobile devices here */
+.search-container button[type="submit"] {
+   background-color: #000000;
+   color: #fff;
+   border: none;
+   cursor: pointer;
+   padding: 8px 10px;
+   transition: background-color 0.3s ease-in-out;
+ }
+
+ /* Hover effect for the search button */
+ .search-container button[type="submit"]:hover {
+   background-color: #333333;
+   /* Change the background color on hover */
+ }
+
+ /* Style for the search icon */
+ .search-container button[type="submit"] i {
+   font-size: 15px;
+   color: red;
+ }
+.search-text {
+   padding: 8px;/* THIS */
+   color: #333;
+   /* Text color */
+   font-weight: bold;      
+ }
+.search-container {
+   display: flex;
+   align-items: center;
+   margin-bottom: 20px;
+   background-color: #fff;
+   border: 2px solid #000;
+   border-radius: 5px;      
+   overflow: hidden;
+   max-width: 55%;/* THIS */
+   font-size: 15px;/* THIS */
+   transition: border-color 0.3s ease-in-out;
+   position: relative;
+   /* margin-left: 50px; */
+ }
+ /* =============== SEARCH REALTED ================== */
+/* Your CSS styles for small screens and laptops here */
+h1{
+ font-size: 30px;
+   }
+}
+
+/* Desktops and large screens (1025px - 1200px) */
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+.menu {
+   background-color: #000000;
+   text-align: center;
+   margin-bottom: 20px;
+   margin-right: 5px;
+   border-right: 1px solid #fff;
+   padding: 5px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
+
+ .menu a {
+   display: inline-block;
+   color: #fff;
+   text-decoration: none;
+   margin-right: 10px;
+   text-align: center;
+   font-size: 16px;
+ }
+
+ .menu:hover {
+   background-color: #e60505;
+ }
+/* =============== SEARCH REALTED ================== */
+ /* Style for the search input */
+ .search-container input[type="text"] {
+   flex-grow: 1;
+   padding: 8px;/* THIS */
+   max-width: 100%;
+   border: none;
+   outline: none;
+   transition: background-color 0.3s ease-in-out;
+ }
+
+ /* Hover effect for the search input */
+ .search-container input[type="text"]:hover {
+   background-color: #f9f9f9;
+   /* Change the background color on hover */
+ }
+/* Your CSS styles for mobile devices here */
+.search-container button[type="submit"] {
+   background-color: #000000;
+   color: #fff;
+   border: none;
+   cursor: pointer;
+   padding: 8px 10px;
+   transition: background-color 0.3s ease-in-out;
+ }
+
+ /* Hover effect for the search button */
+ .search-container button[type="submit"]:hover {
+   background-color: #333333;
+   /* Change the background color on hover */
+ }
+
+ /* Style for the search icon */
+ .search-container button[type="submit"] i {
+   font-size: 15px;
+   color: red;
+ }
+.search-text {
+   padding: 8px;/* THIS */
+   color: #333;
+   /* Text color */
+   font-weight: bold;      
+ }
+.search-container {
+   display: flex;
+   align-items: center;
+   margin-bottom: 20px;
+   background-color: #fff;
+   border: 2px solid #000;
+   border-radius: 5px;      
+   overflow: hidden;
+   max-width: 40%;/* THIS */
+   font-size: 15px;/* THIS */
+   transition: border-color 0.3s ease-in-out;
+   position: relative;
+   /* margin-left: 50px; */
+ }
+ /* =============== SEARCH REALTED ================== */
+/* Your CSS styles for desktops and large screens here */
+h1{
+ font-size: 30px;
+   }
+}
+
+/* Extra large screens and TV (1201px and more) */
+@media screen and (min-width: 1201px) {
+.menu {
+   background-color: #000000;
+   text-align: center;
+   margin-bottom: 20px;
+   margin-right: 5px;
+   border-right: 1px solid #fff;
+   padding: 5px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border-radius: 10px;
+ }
+
+ .menu a {
+   display: inline-block;
+   color: #fff;
+   text-decoration: none;
+   margin-right: 10px;
+   text-align: center;
+   font-size: 16px;
+ }
+
+ .menu:hover {
+   background-color: #e60505;
+ }
+/* =============== SEARCH REALTED ================== */
+ /* Style for the search input */
+ .search-container input[type="text"] {
+   flex-grow: 1;
+   padding: 8px;/* THIS */
+   max-width: 100%;
+   border: none;
+   outline: none;
+   transition: background-color 0.3s ease-in-out;
+ }
+
+ /* Hover effect for the search input */
+ .search-container input[type="text"]:hover {
+   background-color: #f9f9f9;
+   /* Change the background color on hover */
+ }
+/* Your CSS styles for mobile devices here */
+.search-container button[type="submit"] {
+   background-color: #000000;
+   color: #fff;
+   border: none;
+   cursor: pointer;
+   padding: 8px 10px;
+   transition: background-color 0.3s ease-in-out;
+ }
+
+ /* Hover effect for the search button */
+ .search-container button[type="submit"]:hover {
+   background-color: #333333;
+   /* Change the background color on hover */
+ }
+
+ /* Style for the search icon */
+ .search-container button[type="submit"] i {
+   font-size: 15px;
+   color: red;
+ }
+.search-text {
+   padding: 8px;/* THIS */
+   color: #333;
+   /* Text color */
+   font-weight: bold;      
+ }
+.search-container {
+   display: flex;
+   align-items: center;
+   margin-bottom: 20px;
+   background-color: #fff;
+   border: 2px solid #000;
+   border-radius: 5px;      
+   overflow: hidden;
+   max-width: 40%;/* THIS */
+   font-size: 15px;/* THIS */
+   transition: border-color 0.3s ease-in-out;
+   position: relative;
+   /* margin-left: 50px; */
+ }
+ /* =============== SEARCH REALTED ================== */
+/* Your CSS styles for extra large screens and TV here */
+h1{
+ font-size: 32px;
+   }
+}
+
+ @media (min-width: 768px) {
+   td.student-details,
+   td.sap-id,
+   td.leave-type,
+   td.intime,
+   td.outtime,
+   td.image,
+   td.approve,
+   td.reject {
+     display: table-cell;
+   }
+
+   th,
+   td {
+     font-size: 14px;
+   }
+}
+
+ /* Styles for smaller screens (tablets and smartphones) */
+ @media (max-width: 767px) {      
+
+   td.student-details,
+   td.sap-id,
+   td.leave-type,
+   td.intime,
+   td.outtime,
+   td.image,
+   td.approve,
+   td.reject {
+     display: none;
+   }
+
+   /* Display a button to show/hide additional information */
+   td.more-info-button {
+     display: table-cell;
+   }
+
+   /* Adjust font size for smaller screens */
+   th,
+   td {
+     font-size: 12px;
+   }
+
+ }
+
+ /* Additional styles for even smaller screens (smartphones) */
+ @media (max-width: 480px) {
+
+   /* Further reduce font size */
+   th,
+   td {
+     font-size: 10px;
+   }
+ }
+
+ body {
+   margin: 0;
+   padding: 0;
+   background-image: url("images/back4.jpg");
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   font-family: Arial, sans-serif;
+   min-height: 100vh;
+   /* Ensure the body takes up at least the full viewport height */
+   display: flex;
+   flex-direction: column;
+ }
+
+ .container1 {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+ }
+
+ h1 {
+   text-align: center;
+   color: #e10808;
+   /* font-size: 36px; */
+   margin-bottom: 30px;
+   position: relative;
+ }
+
+ /* Base table styles */
+ table {
+   width: 100%;
+   border-collapse: collapse;
+   margin-top: 20px;
+   background-color: #fff;
+   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+   animation: fade-in 1s ease-in-out;
+ }
+
+ th,
+ td {
+   border: 2px solid #000000;
+   padding: 10px;
+   text-align: center;
+ }
+
+ th {
+   background-color: #ff4444;
+   color: #fff;
+ }
+
+ tr:nth-child(even) {
+   background-color: #fff;
+ }
+
+ tr:nth-child(odd) {
+   background-color: #f1f1f1;
+ }
+
+ td.student-details,
+ td.sap-id {
+   background-color: #fff;
+   color: #000;
+ }
+
+ td.status-approve {
+   background-color: #ffffff;
+   /* Green */
+   color: #000000;
+ }
+
+ td.status-reject {
+   background-color: #ffffff;
+   /* Red */
+   color: #000000;
+ }
+
+ td a {
+   display: block;
+   padding: 10px;
+   color: #000000;
+   text-decoration: none;
+   transition: background-color 0.3s ease, color 0.3s ease;
+   height: 100%;
+   width: 100%;
+   box-sizing: border-box;
+ }
+
+ td.status-approve a:hover {
+   background-color: #47ff04;
+   color: #000000;
+   background-size: auto;
+ }
+
+ td.status-reject a:hover {
+   background-color: #ff0000;
+   color: #000000;
+   background-size: auto;
+ }
+
+ /* Responsive styles for smaller screens (tablets and smartphones) */
+ @media (max-width: 767px) {
+   table {
+     font-size: 12px;
+     /* Reduce font size for smaller screens */
+   }
+
+   th,
+   td {
+     padding: 8px;
+     /* Adjust cell padding for smaller screens */
+   }
+
+   td {
+     display: block;
+     width: 50%;
+   }
+
+   td:before {
+     content: attr(data-label);
+     /* Use "data-label" attribute content as label for each cell */
+     font-weight: bold;
+     text-transform: uppercase;
+   }
+ }
+
+ div1 {
+   border: 1px solid red;
+ }
+
+ .date {
+   top: 10px;
+   right: 10px;
+   font-size: 18px;
+ }
+
+ .logo img {
+   max-height: 90px;
+ }
+
+ /* Media queries for different device widths */
+ @media (min-width: 320px) {
+
+   /* Styles for small smartphones */
+   .table {
+     width: 50%;
+   }
+ }
+
+ @media (min-width: 480px) {
+
+   /* Styles for larger smartphones */
+   .container1 {
+     width: 70%;
+   }
+
+   .table {
+     width: 50%;
+   }
+ }
+
+ @media (min-width: 768px) {
+
+   /* Styles for tablets */
+   .container1 {
+     width: 70%;
+   }
+
+   .table {
+     width: 70%;
+   }
+ }
+
+ @media (min-width: 992px) {
+
+   /* Styles for laptops and desktops */
+   .table {
+     width: 95%;
+   }
+ }
+
+ @media (min-width: 1200px) {
+
+   /* Styles for large desktop screens */
+   .container1 {
+     width: 60%;
+   }
+
+   .table {
+     width: 100%;
+   }
+ }
+
+ .footer {
+   background-color: rgb(99, 102, 106);
+   /* Background color in RGB */
+   color: #fff;
+   /* Text color */
+   padding: 10px;
+   /* Adjust padding as needed */
+   position: fixed;
+   bottom: 0;
+   width: 100%;
+   text-align: center;
+ }
+
+ /* Clear the body's margin to avoid overlap with the footer */
+ body {
+   margin: 0;
+   padding-bottom: 60px;
+   /* Adjust this value to match the footer's height */
+ }
+
+ /* =================== IMAGE RELATED ======================= */
+ .imgx {
+   width: 50px;
+   height: 50px;
+   background-size: cover;
+     position: relative;
+   /* Needed for positioning the modal */
+   cursor: pointer;
+
+ }
+
+ .imgxx {
+   width: 0px;
+   height: 0px;
+ }
+
+ .enlarge-modal {
+   display: none;
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-color: rgba(0, 0, 0, 0.8);
+   justify-content: center;
+   align-items: center;
+ }
+
+ .enlarge-image {
+   max-width: 90%;
+   max-height: 90%;
+ }
+
+ .footer {
+   background: rgb(99, 102, 106);
+   text-align: center;
+   padding: 10px 0;
+   color: #fff;
+ }
+
+    /* Hover effect for the search container */
+ .search-container:hover {
+   border-color: #ff0000;
+   /* Change the border color on hover */
+ }
+
+.container a{
+ color:white;
+ font-size: 15px;
+}

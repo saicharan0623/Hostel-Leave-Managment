@@ -1,0 +1,60 @@
+[25-Sep-2024 18:03:10 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_Node" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Node/Element.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Node/Element.php on line 6
+[25-Sep-2024 18:03:10 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_Node" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Node/Text.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Node/Text.php on line 12
+[25-Sep-2024 18:03:10 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_Node" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Node/Comment.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Node/Comment.php on line 6
+[25-Sep-2024 18:03:17 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_Node" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Node/Element.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Node/Element.php on line 6
+[25-Sep-2024 18:03:19 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_Node" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Node/Text.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Node/Text.php on line 12
+[25-Sep-2024 18:03:22 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_Node" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Node/Comment.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Node/Comment.php on line 6
+[25-Sep-2024 18:03:24 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_Node" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Node/Element.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Node/Element.php on line 6
+[25-Sep-2024 18:03:31 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_Node" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Node/Text.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Node/Text.php on line 12
+[25-Sep-2024 18:03:52 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_Node" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Node/Comment.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Node/Comment.php on line 6
+[25-Sep-2024 18:03:58 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_Node" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Node/Element.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Node/Element.php on line 6
+[25-Sep-2024 18:04:06 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_Node" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Node/Text.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Node/Text.php on line 12
+[25-Sep-2024 18:04:35 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_Node" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Node/Comment.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Node/Comment.php on line 6
+[25-Sep-2024 18:04:43 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_Node" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Node/Element.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Node/Element.php on line 6
+[25-Sep-2024 18:04:45 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_Node" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Node/Text.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Node/Text.php on line 12
+[25-Sep-2024 18:05:07 UTC] PHP Fatal error:  Uncaught Error: Class "HTMLPurifier_Node" not found in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Node/Comment.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Node/Comment.php on line 6

@@ -1,0 +1,42 @@
+[25-Sep-2024 16:02:16 UTC] PHP Warning:  include(/home/nmimshyd/public_html/leave/vendor/markbaker/complex/examples/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/nmimshyd/public_html/leave/vendor/markbaker/complex/examples/complexTest.php on line 5
+[25-Sep-2024 16:02:16 UTC] PHP Warning:  include(/home/nmimshyd/public_html/leave/vendor/markbaker/complex/examples/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/nmimshyd/public_html/leave/vendor/markbaker/complex/examples/complexTest.php on line 5
+[25-Sep-2024 16:02:16 UTC] PHP Warning:  include(): Failed opening '/home/nmimshyd/public_html/leave/vendor/markbaker/complex/examples/../vendor/autoload.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/nmimshyd/public_html/leave/vendor/markbaker/complex/examples/complexTest.php on line 5
+[25-Sep-2024 16:02:16 UTC] PHP Fatal error:  Uncaught Error: Class "Complex\Complex" not found in /home/nmimshyd/public_html/leave/vendor/markbaker/complex/examples/complexTest.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/markbaker/complex/examples/complexTest.php on line 9
+[25-Sep-2024 16:02:21 UTC] PHP Warning:  include(/home/nmimshyd/public_html/leave/vendor/markbaker/complex/examples/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/nmimshyd/public_html/leave/vendor/markbaker/complex/examples/testFunctions.php on line 5
+[25-Sep-2024 16:02:21 UTC] PHP Warning:  include(/home/nmimshyd/public_html/leave/vendor/markbaker/complex/examples/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/nmimshyd/public_html/leave/vendor/markbaker/complex/examples/testFunctions.php on line 5
+[25-Sep-2024 16:02:21 UTC] PHP Warning:  include(): Failed opening '/home/nmimshyd/public_html/leave/vendor/markbaker/complex/examples/../vendor/autoload.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/nmimshyd/public_html/leave/vendor/markbaker/complex/examples/testFunctions.php on line 5
+[25-Sep-2024 16:02:21 UTC] PHP Fatal error:  Uncaught Error: Class "Complex\Complex" not found in /home/nmimshyd/public_html/leave/vendor/markbaker/complex/examples/testFunctions.php:43
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/markbaker/complex/examples/testFunctions.php on line 43
+[25-Sep-2024 16:02:32 UTC] PHP Warning:  include(/home/nmimshyd/public_html/leave/vendor/markbaker/complex/examples/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/nmimshyd/public_html/leave/vendor/markbaker/complex/examples/testOperations.php on line 6
+[25-Sep-2024 16:02:32 UTC] PHP Warning:  include(/home/nmimshyd/public_html/leave/vendor/markbaker/complex/examples/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/nmimshyd/public_html/leave/vendor/markbaker/complex/examples/testOperations.php on line 6
+[25-Sep-2024 16:02:32 UTC] PHP Warning:  include(): Failed opening '/home/nmimshyd/public_html/leave/vendor/markbaker/complex/examples/../vendor/autoload.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/nmimshyd/public_html/leave/vendor/markbaker/complex/examples/testOperations.php on line 6
+[25-Sep-2024 16:02:32 UTC] PHP Fatal error:  Uncaught Error: Class "Complex\Complex" not found in /home/nmimshyd/public_html/leave/vendor/markbaker/complex/examples/testOperations.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/markbaker/complex/examples/testOperations.php on line 9
+[25-Sep-2024 16:03:11 UTC] PHP Warning:  include(/home/nmimshyd/public_html/leave/vendor/markbaker/complex/examples/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/nmimshyd/public_html/leave/vendor/markbaker/complex/examples/testOperations.php on line 6
+[25-Sep-2024 16:03:11 UTC] PHP Warning:  include(/home/nmimshyd/public_html/leave/vendor/markbaker/complex/examples/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/nmimshyd/public_html/leave/vendor/markbaker/complex/examples/testOperations.php on line 6
+[25-Sep-2024 16:03:11 UTC] PHP Warning:  include(): Failed opening '/home/nmimshyd/public_html/leave/vendor/markbaker/complex/examples/../vendor/autoload.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/nmimshyd/public_html/leave/vendor/markbaker/complex/examples/testOperations.php on line 6
+[25-Sep-2024 16:03:11 UTC] PHP Fatal error:  Uncaught Error: Class "Complex\Complex" not found in /home/nmimshyd/public_html/leave/vendor/markbaker/complex/examples/testOperations.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/markbaker/complex/examples/testOperations.php on line 9
+[25-Sep-2024 16:04:00 UTC] PHP Warning:  include(/home/nmimshyd/public_html/leave/vendor/markbaker/complex/examples/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/nmimshyd/public_html/leave/vendor/markbaker/complex/examples/testOperations.php on line 6
+[25-Sep-2024 16:04:00 UTC] PHP Warning:  include(/home/nmimshyd/public_html/leave/vendor/markbaker/complex/examples/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/nmimshyd/public_html/leave/vendor/markbaker/complex/examples/testOperations.php on line 6
+[25-Sep-2024 16:04:00 UTC] PHP Warning:  include(): Failed opening '/home/nmimshyd/public_html/leave/vendor/markbaker/complex/examples/../vendor/autoload.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/nmimshyd/public_html/leave/vendor/markbaker/complex/examples/testOperations.php on line 6
+[25-Sep-2024 16:04:00 UTC] PHP Fatal error:  Uncaught Error: Class "Complex\Complex" not found in /home/nmimshyd/public_html/leave/vendor/markbaker/complex/examples/testOperations.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/markbaker/complex/examples/testOperations.php on line 9
+[25-Sep-2024 16:04:21 UTC] PHP Warning:  include(/home/nmimshyd/public_html/leave/vendor/markbaker/complex/examples/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/nmimshyd/public_html/leave/vendor/markbaker/complex/examples/testOperations.php on line 6
+[25-Sep-2024 16:04:21 UTC] PHP Warning:  include(/home/nmimshyd/public_html/leave/vendor/markbaker/complex/examples/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/nmimshyd/public_html/leave/vendor/markbaker/complex/examples/testOperations.php on line 6
+[25-Sep-2024 16:04:21 UTC] PHP Warning:  include(): Failed opening '/home/nmimshyd/public_html/leave/vendor/markbaker/complex/examples/../vendor/autoload.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/nmimshyd/public_html/leave/vendor/markbaker/complex/examples/testOperations.php on line 6
+[25-Sep-2024 16:04:21 UTC] PHP Fatal error:  Uncaught Error: Class "Complex\Complex" not found in /home/nmimshyd/public_html/leave/vendor/markbaker/complex/examples/testOperations.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/nmimshyd/public_html/leave/vendor/markbaker/complex/examples/testOperations.php on line 9

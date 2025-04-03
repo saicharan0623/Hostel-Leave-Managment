@@ -27,10 +27,9 @@ function validateLeaveApplicationForm() {
     return false;
   }
 
-  return true; // Return true if all validation checks pass
+  return true;
 }
 
-// Add event listener to the leave application form
 var leaveApplicationForm = document.getElementById("leaveApplicationForm");
 if (leaveApplicationForm) {
   leaveApplicationForm.addEventListener("submit", function (event) {

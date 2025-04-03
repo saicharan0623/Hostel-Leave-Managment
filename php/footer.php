@@ -16,7 +16,7 @@
 </head>
 <body>
     <footer>
-        <p>&copy; <?php echo date("Y"); ?> Malde Saicharan. All rights reserved.</p>
+           <span>2024 &copy; MALDE SAICHARAN - STME All rights reserved.</span>
     </footer>
 </body>
 </html>

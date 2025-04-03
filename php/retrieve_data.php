@@ -3,7 +3,7 @@ require '../vendor/autoload.php'; // Include the autoloader
 
 use PhpOffice\PhpSpreadsheet\IOFactory;
 
-$excelFilePath = '../sample.xlsx';
+$excelFilePath = '../Excel/sample.xlsx';
 
 $spreadsheet = IOFactory::load($excelFilePath);
 $worksheet = $spreadsheet->getActiveSheet();
