@@ -41,7 +41,7 @@ Before you begin, ensure you have:
 
 ### 📥 Installation
 ```bash
-git clone https://github.com/yourusername/hostel-leave-management.git
+git clone https://github.com/saicharan0623/hostel-leave-management.git
 cd hostel-leave-management
 ```
 
